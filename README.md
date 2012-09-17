@@ -1,4 +1,6 @@
 hmobius.github.com
 ==================
 
-Homesite
+# hmobius.com
+
+Static content for hmobius.com
