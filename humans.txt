@@ -1,0 +1,16 @@
+﻿# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Dan Maharry -- Owner, Coder -- @hmobius
+
+# THANKS
+
+    HTML5 Boilerplate Team
+    Code 52 Project for metro.css
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr, Less
