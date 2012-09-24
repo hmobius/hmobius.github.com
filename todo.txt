@@ -1,4 +1,4 @@
 ﻿- Incorporate HTML5 Boilerplate into pages
 - Incorporate hmobius.com content into pages
 - Reduce less into CSS if appropriate : responsive UI
-- 
+- Redirect hmobius.com at site
