@@ -1,4 +1,3 @@
-/* Type */
 /* Colors */
 .accent {
   color: #1ba1e2;
@@ -96,6 +95,9 @@
   margin-bottom: 0;
 }
 body {
+  width: 900px;
+  margin: 0 auto;
+  background-color: white;
   font-family: "Segoe UI", "Segoe WP", "Helvetica Neue", 'RobotoRegular', sans-serif;
   font-size: 14px;
 }
@@ -108,7 +110,7 @@ h6 {
   font-family: "Segoe UI Light", "Helvetica Neue", 'RobotoLight', "Segoe UI", "Segoe WP", sans-serif;
   font-weight: 100;
   margin-top: 5px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 h1 {
   font-size: 56px;
@@ -153,17 +155,17 @@ ol.metro-list li:before {
   content: counter(item) "  ";
   counter-increment: item;
 }
-.metro-pivot .headers {
+.metro-pivot .pivot-headers {
   clear: both;
   display: block;
   white-space: nowrap;
 }
-.metro-pivot .pivot-item h3,
-.metro-pivot .headers .header {
+.metro-pivot .pivot-item h2,
+.metro-pivot .pivot-headers .header {
   font-family: "Segoe UI Light", "Helvetica Neue", 'RobotoLight', "Segoe UI", "Segoe WP", sans-serif;
   font-weight: 100;
   margin-top: 5px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   cursor: pointer;
   display: inline-block;
   font-size: 42px;
@@ -181,7 +183,7 @@ ol.metro-list li:before {
   text-align: justify;
   width: 100%;
 }
-/*@import "bootstrap.less";*/
+
 a {
   color: #1ba1e2;
   text-decoration: none;
@@ -203,9 +205,4 @@ code {
 }
 .clear {
   clear: both;
-}
-body {
-  width: 900px;
-  margin: 0 auto;
-  background-color: white;
 }
