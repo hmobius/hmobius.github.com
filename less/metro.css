@@ -93,8 +93,7 @@
   font-family: "Segoe UI Light", "Helvetica Neue", 'RobotoLight', "Segoe UI", "Segoe WP", sans-serif;
   font-weight: 100;
   margin-top: 5px;
-  margin-bottom: 0px;
-  text-transform: lowercase;
+  margin-bottom: 0;
 }
 body {
   font-family: "Segoe UI", "Segoe WP", "Helvetica Neue", 'RobotoRegular', sans-serif;
@@ -155,43 +154,24 @@ ol.metro-list li:before {
   content: counter(item) "  ";
   counter-increment: item;
 }
-metro-pivot .headers {
-  clear: both;
-  display: block;
-  white-space: nowrap;
-}
-.metro-pivot .pivot-item h3,
-.metro-pivot .headers .header {
-  font-family: "Segoe UI Light", "Helvetica Neue", 'RobotoLight', "Segoe UI", "Segoe WP", sans-serif;
-  font-weight: 100;
-  margin-top: 5px;
-  margin-bottom: 0px;
-  text-transform: lowercase;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 42px;
-  margin-right: 24px;
-  padding: 0;
-  vertical-align: top;
-}
 .metro-pivot .headers {
-  white-space: nowrap;
-  display: block;
   clear: both;
+  display: block;
+  white-space: nowrap;
 }
 .metro-pivot .pivot-item h3,
 .metro-pivot .headers .header {
   font-family: "Segoe UI Light", "Helvetica Neue", 'RobotoLight', "Segoe UI", "Segoe WP", sans-serif;
   font-weight: 100;
   margin-top: 5px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   text-transform: lowercase;
-  font-size: 42px;
-  display: inline-block;
-  vertical-align: top;
-  padding: 0;
   cursor: pointer;
+  display: inline-block;
+  font-size: 42px;
   margin-right: 24px;
+  padding: 0;
+  vertical-align: top;
 }
 .metro-pivot .items {
   position: relative;
