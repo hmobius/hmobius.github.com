@@ -1,10 +1,11 @@
-metro-pivot .pivot-headers {
+metro-pivot .headers {
 	clear: both;
 	display: block;
 	white-space: nowrap;
 }
 
-.metro-pivot .pivot-headers .header {
+.metro-pivot .pivot-item h3,
+.metro-pivot .headers .header {
 	#headingstyles;
 	cursor: pointer;
 	display: inline-block;
@@ -15,8 +16,8 @@ metro-pivot .pivot-headers {
 }
 
 
-.metro-pivot .pivot-headers { white-space: nowrap; display: block; clear: both; }
-.metro-pivot .metro-pivot .pivot-headers .header, nav .header { #headingstyles; font-size: @h2fontSize; display: inline-block; vertical-align: top; padding: 0; cursor: pointer; margin-right:24px; }
+.metro-pivot .headers { white-space: nowrap; display: block; clear: both; }
+.metro-pivot .pivot-item h3, .metro-pivot .headers .header { #headingstyles; font-size: @h2fontSize; display: inline-block; vertical-align: top; padding: 0; cursor: pointer; margin-right:24px; }
 .metro-pivot .headers .header.current { }
-.metro-pivot .items { position: relative; }
-.metro-pivot .items .pivotItem { display: block; white-space: normal; width: 100%; }
+.metro-pivot .items { position: relative; overflow: hidden; }
+.metro-pivot .items .pivotItem { display: block; white-space: normal; text-align: justify; width: 100%; }

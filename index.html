@@ -1,10 +1,6 @@
-﻿<!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html lang="en" class="no-js">
-<!--<![endif]-->
+﻿
+<!DOCTYPE html>
+<html lang="en-gb">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -12,33 +8,34 @@
   <meta name="description" content="Dan Maharry is a writer and editor of many web development books. This is his home page.">
   <meta name="keywords" content="Dan Maharry, writer, editor, developer, html, asp.net, csharp, c#, sql server, visual studio, javascript, web standards, music, books">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet/less" type="text/css" href="/less/metro.less" />
+  <link rel="stylesheet" type="text/css" href="less/metro.min.css" />
+  <link type="application/rss+xml" rel="alternate" title="Dan Maharry" href="http://feeds2.feedburner.com/DansArchive" />
   <style>
-    section#local h3, section#local a {
-      color: brown;
-      -moz-opacity: 1.0;
-      opacity: 1.0;
+    article {
+      -moz-column-count: 3;
+      -webkit-column-count: 3;
+      column-count: 3;
+      -moz-column-gap: 20px;
+      -webkit-column-gap: 20px;
+      column-gap: 20px;
     }
 
-    section#social h3, section#social a {
+    section h2 {
+      font-size: 28px;
+    }
+
+    section#social h2, section#social a {
       color: purple;
-      -moz-opacity: 1.0;
-      opacity: 1.0;
     }
 
-    section#code h3, section#code a {
+    section#code h2, section#code a {
       color: green;
-      -moz-opacity: 1.0;
-      opacity: 1.0;
     }
 
-    section#music h3, section#music a {
+    section#music h2, section#music a {
       color: blue;
-      -moz-opacity: 1.0;
-      opacity: 1.0;
     }
   </style>
-  <script src="/scripts/modernizr-2.6.1.min.js"></script>
 </head>
 <body>
   <!--[if lt IE 7]>
@@ -46,30 +43,27 @@
         <![endif]-->
   <h1>Dan Maharry</h1>
   <section>
-    I&#8217;m an experienced technical author with over a dozen books to my name and many more as technical reviewer and editor for a variety of publishers including Wrox, Apress, Microsoft Press and O&#8217;Reilly Associates. I&#8217;m also a .NET developer with past stints for the dotCoop TLD registry and various web development houses under my belt. I listen to a lot of music as I write and code.
-  </section>
-  <article>
-    <h2>Index</h2>
-    <p>Use the index below to find the information you require.</p>
-    <section id="local">
-      <h3>Local</h3>
+    <p>I&#8217;m an experienced technical author with over a dozen books to my name and many more as technical reviewer and editor for a variety of publishers including Wrox, Apress, Microsoft Press and O&#8217;Reilly Associates. I&#8217;m also a .NET developer with past stints for the dotCoop TLD registry and various web development houses under my belt. I listen to a lot of music as I write and code.</p>
+      <p>I have written a technical, code-related blog for many years. You can read it at <a href="http://blog.hmobius.com">blog.hmobius.com</a> and subscribe to its RSS feed <a href="http://feeds2.feedburner.com/DansArchive">here</a>.</p>
+  <ul>
+    <li>15 Oct: New blog article: <a href="http://blog.hmobius.com/post/2012/10/14/Inferred-Hierarchies-and-Evaluation-Strategies-in-SimpleData.aspx">Inferred Hierarchies and Evaluation Strategies in Simple.Data</a></li>
+    <li>27 Sep: Changed 404 page to dynamic page from <a href="http://notfound.com">NotFound.com</a> advertising missing children. A good use for a 404 page.</a>
+    <li>25 Sep: Released the NotMetro theme for dotNetBlogEngine. Details <a href="http://blog.hmobius.com/post/2012/09/25/NotMetro-A-Theme-For-dotNetBlogEngine.aspx">here</a> and official download here <a href="http://dnbegallery.org/cms/List/Themes/NotMetro">here</a>
+    <li>24 Sep: <a href="music/bakersdozen.html">A Baker&#8217;s Dozen</a>: Or How I Started Learning to Stop Worrying and Enjoy Writing Again</li>
+  </ul>    </section><article>
+      <section id="social">
+      <h2>Social</h2>
       <ul>
-        <li><a href="journal.html">Journal</a></li>
-        <li><a href="/music/bakersdozen.html">A Baker&#8217;s Dozen</a></li>
-      </ul>
-    </section>
-    <section id="social">
-      <h3>Social</h3>
-      <ul>
+        <li><a href="http://about.me/danmaharry">About Me</a></li>
         <li><a href="http://twitter.com/hmobius">Twitter</a></li>
         <li><a href="http://www.linkedin.com/in/hmobius">LinkedIn</a></li>
         <li><a href="http://tumblr.hmobius.com/">Tumblr</a></li>
-        <li><a href="https://plus.google.com/108894515981857515808/">Google+</a></li>
+        <li><a href="https://plus.google.com/108894515981857515808/?rel=author" rel="author">Google+</a></li>
         <li><a href="http://careers.stackoverflow.com/danmaharry">Profile On Careers.StackOverflow</a></li>
       </ul>
     </section>
     <section id="code">
-      <h3>Code</h3>
+      <h2>Code</h2>
       <ul>
         <li><a href="http://blog.hmobius.com">My Tech Blog</a> - online since 2001</li>
         <li><a href="https://pinboard.in/u:hmobius">Pinboard</a> - bookmarks</li>
@@ -79,21 +73,19 @@
       </ul>
     </section>
     <section id="music">
-      <h3>Music</h3>
+      <h2>Music</h2>
       <ul>
         <li><a href="http://open.spotify.com/user/hmobius/playlist/4EYWjbkbaQ9obGtVpZm2ZC">Spotify</a> - current listening list</li>
         <li><a href="http://www.last.fm/user/hmobius">Last.fm</a></li>
         <li><a href="http://mixcloud.com/hmobius">Mixcloud</a></li>
         <li><a href="http://www.thisismyjam.com/hmobius">This Is My Jam</a></li>
+        <li><a href="http://soundcloud.com/hmobius">Soundcloud</a></li>
       </ul>
     </section>
   </article>
   <footer>
-    <p>Page last updated: <time datetime="2012-09-27">27 September 2012</time>.</p>
+    <p>Page last updated: <time datetime="2012-10-15">15 October 2012</time>.</p>
   </footer>
-  <script type="text/javascript" src="/scripts/less-1.3.0.min.js"></script>
-  <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery/jquery-1.8.2.min.js"></script>
-  <script>window.jQuery || document.write('<script src="/scripts/jquery-1.8.2.min.js"><\/script>')</script>
   <script>
     var _gaq = [['_setAccount', 'UA-7038657-6'], ['_trackPageview']];
     (function (d, t) {
