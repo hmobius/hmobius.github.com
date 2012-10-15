@@ -109,7 +109,6 @@ h6 {
   font-weight: 100;
   margin-top: 5px;
   margin-bottom: 0px;
-  text-transform: lowercase;
 }
 h1 {
   font-size: 56px;
@@ -165,7 +164,6 @@ ol.metro-list li:before {
   font-weight: 100;
   margin-top: 5px;
   margin-bottom: 0;
-  text-transform: lowercase;
   cursor: pointer;
   display: inline-block;
   font-size: 42px;
