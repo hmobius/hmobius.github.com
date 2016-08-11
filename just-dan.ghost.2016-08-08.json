@@ -1,0 +1,1715 @@
+{
+    "db": [
+        {
+            "meta": {
+                "exported_on": 1470667934936,
+                "version": "006"
+            },
+            "data": {
+                "app_fields": [],
+                "app_settings": [],
+                "apps": [],
+                "permissions": [
+                    {
+                        "id": 1,
+                        "uuid": "743c4d8e-6f8d-4dcd-959c-077725b3b2bc",
+                        "name": "Export database",
+                        "object_type": "db",
+                        "action_type": "exportContent",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:34.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:34.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 2,
+                        "uuid": "bf460ade-6599-4486-8aaa-9c0e07c5a375",
+                        "name": "Import database",
+                        "object_type": "db",
+                        "action_type": "importContent",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:34.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:34.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 3,
+                        "uuid": "2d849e32-4b89-4380-924a-2f84146962ec",
+                        "name": "Delete all content",
+                        "object_type": "db",
+                        "action_type": "deleteAllContent",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:34.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:34.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 4,
+                        "uuid": "558bedb8-23b1-45b8-8e4a-0b0f907f572f",
+                        "name": "Send mail",
+                        "object_type": "mail",
+                        "action_type": "send",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:34.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:34.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 5,
+                        "uuid": "f09f5303-7f05-4e6c-aa6f-df48aeb9f441",
+                        "name": "Browse notifications",
+                        "object_type": "notification",
+                        "action_type": "browse",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:34.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:34.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 6,
+                        "uuid": "37876436-33aa-417c-bdc2-9b9393e14822",
+                        "name": "Add notifications",
+                        "object_type": "notification",
+                        "action_type": "add",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:34.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:34.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 7,
+                        "uuid": "fa367536-ae87-4ce9-b0d1-24c29fe90901",
+                        "name": "Delete notifications",
+                        "object_type": "notification",
+                        "action_type": "destroy",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:34.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:34.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 8,
+                        "uuid": "80b82bd2-fa83-4c2e-b84d-7d4bb6a20760",
+                        "name": "Browse posts",
+                        "object_type": "post",
+                        "action_type": "browse",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 9,
+                        "uuid": "b1d0e22e-7ca8-4da4-95d0-00ce287cb6a5",
+                        "name": "Read posts",
+                        "object_type": "post",
+                        "action_type": "read",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 10,
+                        "uuid": "dd195792-948d-4036-a584-16f630093ee3",
+                        "name": "Edit posts",
+                        "object_type": "post",
+                        "action_type": "edit",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 11,
+                        "uuid": "45ab3354-7b54-4f35-aa5b-ad23e2337c8e",
+                        "name": "Add posts",
+                        "object_type": "post",
+                        "action_type": "add",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 12,
+                        "uuid": "1f1b8ea3-fb2c-48bb-b47a-b444f3d2deca",
+                        "name": "Delete posts",
+                        "object_type": "post",
+                        "action_type": "destroy",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 13,
+                        "uuid": "f382f6e6-5c30-4fdc-a557-24090330d9eb",
+                        "name": "Browse settings",
+                        "object_type": "setting",
+                        "action_type": "browse",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 14,
+                        "uuid": "88526587-ddf4-4583-8d91-0f749b8eff42",
+                        "name": "Read settings",
+                        "object_type": "setting",
+                        "action_type": "read",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 15,
+                        "uuid": "a463c3a2-b6ee-41c4-811c-49338275ef43",
+                        "name": "Edit settings",
+                        "object_type": "setting",
+                        "action_type": "edit",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 16,
+                        "uuid": "beea2cb1-6c32-4c7d-a8c6-38fe68291550",
+                        "name": "Generate slugs",
+                        "object_type": "slug",
+                        "action_type": "generate",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 17,
+                        "uuid": "5fe3a4f0-a1f5-4f83-9707-d692e4bedc24",
+                        "name": "Browse tags",
+                        "object_type": "tag",
+                        "action_type": "browse",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 18,
+                        "uuid": "9eb3b283-6253-41e0-aa54-247d9dd2e735",
+                        "name": "Read tags",
+                        "object_type": "tag",
+                        "action_type": "read",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 19,
+                        "uuid": "382af8ed-789b-4930-a380-eaf8da0da8d1",
+                        "name": "Edit tags",
+                        "object_type": "tag",
+                        "action_type": "edit",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 20,
+                        "uuid": "7d0edd4c-64f5-4559-b02e-d5a302d862fb",
+                        "name": "Add tags",
+                        "object_type": "tag",
+                        "action_type": "add",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 21,
+                        "uuid": "14db5e29-0e95-4575-8452-c6cfd31bee1c",
+                        "name": "Delete tags",
+                        "object_type": "tag",
+                        "action_type": "destroy",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 22,
+                        "uuid": "cf47bbea-b3d7-4304-8775-ceff57e1802c",
+                        "name": "Browse themes",
+                        "object_type": "theme",
+                        "action_type": "browse",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 23,
+                        "uuid": "e7e62580-c27f-4599-b864-7429a43bd1f9",
+                        "name": "Edit themes",
+                        "object_type": "theme",
+                        "action_type": "edit",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 24,
+                        "uuid": "fa8a7826-7d2e-4515-abaf-4d105c57c746",
+                        "name": "Browse users",
+                        "object_type": "user",
+                        "action_type": "browse",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 25,
+                        "uuid": "d437f6c6-3b17-4fd3-8003-a1e01b087421",
+                        "name": "Read users",
+                        "object_type": "user",
+                        "action_type": "read",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 26,
+                        "uuid": "dea83be8-d52f-4df2-aa45-6c82c41f2c5e",
+                        "name": "Edit users",
+                        "object_type": "user",
+                        "action_type": "edit",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 27,
+                        "uuid": "8caeab7f-8bf1-49ad-9348-5a038cfca5dc",
+                        "name": "Add users",
+                        "object_type": "user",
+                        "action_type": "add",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 28,
+                        "uuid": "9186c57a-bb47-4a72-8103-6d2c94707636",
+                        "name": "Delete users",
+                        "object_type": "user",
+                        "action_type": "destroy",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 29,
+                        "uuid": "c8924357-a357-4a8c-8298-b2ac0279a874",
+                        "name": "Assign a role",
+                        "object_type": "role",
+                        "action_type": "assign",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 30,
+                        "uuid": "c90ffec1-b38d-437d-a183-9101f8dcd71b",
+                        "name": "Browse roles",
+                        "object_type": "role",
+                        "action_type": "browse",
+                        "object_id": null,
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 31,
+                        "uuid": "e7f36bc0-f93d-49fb-a715-5cb2a6dc355b",
+                        "name": "Browse clients",
+                        "object_type": "client",
+                        "action_type": "browse",
+                        "object_id": null,
+                        "created_at": "2016-05-18T15:44:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-05-18T15:44:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 32,
+                        "uuid": "70012b8d-842c-479c-ab89-6a1db7d9df90",
+                        "name": "Read clients",
+                        "object_type": "client",
+                        "action_type": "read",
+                        "object_id": null,
+                        "created_at": "2016-05-18T15:44:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-05-18T15:44:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 33,
+                        "uuid": "77f2786b-3279-4cfe-a04f-a330bd8eecb0",
+                        "name": "Edit clients",
+                        "object_type": "client",
+                        "action_type": "edit",
+                        "object_id": null,
+                        "created_at": "2016-05-18T15:44:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-05-18T15:44:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 34,
+                        "uuid": "995238a1-2524-4794-8d20-633c2650fe65",
+                        "name": "Add clients",
+                        "object_type": "client",
+                        "action_type": "add",
+                        "object_id": null,
+                        "created_at": "2016-05-18T15:44:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-05-18T15:44:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 35,
+                        "uuid": "b3f86e8d-bfb5-4157-8200-a02b649f57c0",
+                        "name": "Delete clients",
+                        "object_type": "client",
+                        "action_type": "destroy",
+                        "object_id": null,
+                        "created_at": "2016-05-18T15:44:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-05-18T15:44:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 36,
+                        "uuid": "c668c7e2-42f1-481f-9e4a-032f17a7496b",
+                        "name": "Browse subscribers",
+                        "object_type": "subscriber",
+                        "action_type": "browse",
+                        "object_id": null,
+                        "created_at": "2016-05-18T15:44:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-05-18T15:44:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 37,
+                        "uuid": "45079582-0b21-4faf-bf42-3c9d9e77de43",
+                        "name": "Read subscribers",
+                        "object_type": "subscriber",
+                        "action_type": "read",
+                        "object_id": null,
+                        "created_at": "2016-05-18T15:44:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-05-18T15:44:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 38,
+                        "uuid": "b54fcb3d-ac36-405e-9714-5f1abcf2fba6",
+                        "name": "Edit subscribers",
+                        "object_type": "subscriber",
+                        "action_type": "edit",
+                        "object_id": null,
+                        "created_at": "2016-05-18T15:44:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-05-18T15:44:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 39,
+                        "uuid": "22007597-bbc7-41ed-abe0-f095db7dd298",
+                        "name": "Add subscribers",
+                        "object_type": "subscriber",
+                        "action_type": "add",
+                        "object_id": null,
+                        "created_at": "2016-05-18T15:44:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-05-18T15:44:35.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 40,
+                        "uuid": "311554ce-de87-4ba0-834a-4f3eb3af741b",
+                        "name": "Delete subscribers",
+                        "object_type": "subscriber",
+                        "action_type": "destroy",
+                        "object_id": null,
+                        "created_at": "2016-05-18T15:44:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-05-18T15:44:35.000Z",
+                        "updated_by": 1
+                    }
+                ],
+                "permissions_apps": [],
+                "permissions_roles": [
+                    {
+                        "id": 1,
+                        "role_id": 1,
+                        "permission_id": 1
+                    },
+                    {
+                        "id": 2,
+                        "role_id": 1,
+                        "permission_id": 2
+                    },
+                    {
+                        "id": 3,
+                        "role_id": 1,
+                        "permission_id": 3
+                    },
+                    {
+                        "id": 4,
+                        "role_id": 1,
+                        "permission_id": 4
+                    },
+                    {
+                        "id": 5,
+                        "role_id": 1,
+                        "permission_id": 5
+                    },
+                    {
+                        "id": 6,
+                        "role_id": 1,
+                        "permission_id": 6
+                    },
+                    {
+                        "id": 7,
+                        "role_id": 1,
+                        "permission_id": 7
+                    },
+                    {
+                        "id": 8,
+                        "role_id": 1,
+                        "permission_id": 8
+                    },
+                    {
+                        "id": 9,
+                        "role_id": 1,
+                        "permission_id": 9
+                    },
+                    {
+                        "id": 10,
+                        "role_id": 1,
+                        "permission_id": 10
+                    },
+                    {
+                        "id": 11,
+                        "role_id": 1,
+                        "permission_id": 11
+                    },
+                    {
+                        "id": 12,
+                        "role_id": 1,
+                        "permission_id": 12
+                    },
+                    {
+                        "id": 13,
+                        "role_id": 1,
+                        "permission_id": 13
+                    },
+                    {
+                        "id": 14,
+                        "role_id": 1,
+                        "permission_id": 14
+                    },
+                    {
+                        "id": 15,
+                        "role_id": 1,
+                        "permission_id": 15
+                    },
+                    {
+                        "id": 16,
+                        "role_id": 1,
+                        "permission_id": 16
+                    },
+                    {
+                        "id": 17,
+                        "role_id": 1,
+                        "permission_id": 17
+                    },
+                    {
+                        "id": 18,
+                        "role_id": 1,
+                        "permission_id": 18
+                    },
+                    {
+                        "id": 19,
+                        "role_id": 1,
+                        "permission_id": 19
+                    },
+                    {
+                        "id": 20,
+                        "role_id": 1,
+                        "permission_id": 20
+                    },
+                    {
+                        "id": 21,
+                        "role_id": 1,
+                        "permission_id": 21
+                    },
+                    {
+                        "id": 22,
+                        "role_id": 1,
+                        "permission_id": 22
+                    },
+                    {
+                        "id": 23,
+                        "role_id": 1,
+                        "permission_id": 23
+                    },
+                    {
+                        "id": 24,
+                        "role_id": 1,
+                        "permission_id": 24
+                    },
+                    {
+                        "id": 25,
+                        "role_id": 1,
+                        "permission_id": 25
+                    },
+                    {
+                        "id": 26,
+                        "role_id": 1,
+                        "permission_id": 26
+                    },
+                    {
+                        "id": 27,
+                        "role_id": 1,
+                        "permission_id": 27
+                    },
+                    {
+                        "id": 28,
+                        "role_id": 1,
+                        "permission_id": 28
+                    },
+                    {
+                        "id": 29,
+                        "role_id": 1,
+                        "permission_id": 29
+                    },
+                    {
+                        "id": 30,
+                        "role_id": 1,
+                        "permission_id": 30
+                    },
+                    {
+                        "id": 31,
+                        "role_id": 2,
+                        "permission_id": 8
+                    },
+                    {
+                        "id": 32,
+                        "role_id": 2,
+                        "permission_id": 9
+                    },
+                    {
+                        "id": 33,
+                        "role_id": 2,
+                        "permission_id": 10
+                    },
+                    {
+                        "id": 34,
+                        "role_id": 2,
+                        "permission_id": 11
+                    },
+                    {
+                        "id": 35,
+                        "role_id": 2,
+                        "permission_id": 12
+                    },
+                    {
+                        "id": 36,
+                        "role_id": 2,
+                        "permission_id": 13
+                    },
+                    {
+                        "id": 37,
+                        "role_id": 2,
+                        "permission_id": 14
+                    },
+                    {
+                        "id": 38,
+                        "role_id": 2,
+                        "permission_id": 16
+                    },
+                    {
+                        "id": 39,
+                        "role_id": 2,
+                        "permission_id": 17
+                    },
+                    {
+                        "id": 40,
+                        "role_id": 2,
+                        "permission_id": 18
+                    },
+                    {
+                        "id": 41,
+                        "role_id": 2,
+                        "permission_id": 19
+                    },
+                    {
+                        "id": 42,
+                        "role_id": 2,
+                        "permission_id": 20
+                    },
+                    {
+                        "id": 43,
+                        "role_id": 2,
+                        "permission_id": 21
+                    },
+                    {
+                        "id": 44,
+                        "role_id": 2,
+                        "permission_id": 24
+                    },
+                    {
+                        "id": 45,
+                        "role_id": 2,
+                        "permission_id": 25
+                    },
+                    {
+                        "id": 46,
+                        "role_id": 2,
+                        "permission_id": 26
+                    },
+                    {
+                        "id": 47,
+                        "role_id": 2,
+                        "permission_id": 27
+                    },
+                    {
+                        "id": 48,
+                        "role_id": 2,
+                        "permission_id": 28
+                    },
+                    {
+                        "id": 49,
+                        "role_id": 2,
+                        "permission_id": 29
+                    },
+                    {
+                        "id": 50,
+                        "role_id": 2,
+                        "permission_id": 30
+                    },
+                    {
+                        "id": 51,
+                        "role_id": 3,
+                        "permission_id": 8
+                    },
+                    {
+                        "id": 52,
+                        "role_id": 3,
+                        "permission_id": 9
+                    },
+                    {
+                        "id": 53,
+                        "role_id": 3,
+                        "permission_id": 11
+                    },
+                    {
+                        "id": 54,
+                        "role_id": 3,
+                        "permission_id": 13
+                    },
+                    {
+                        "id": 55,
+                        "role_id": 3,
+                        "permission_id": 14
+                    },
+                    {
+                        "id": 56,
+                        "role_id": 3,
+                        "permission_id": 16
+                    },
+                    {
+                        "id": 57,
+                        "role_id": 3,
+                        "permission_id": 17
+                    },
+                    {
+                        "id": 58,
+                        "role_id": 3,
+                        "permission_id": 18
+                    },
+                    {
+                        "id": 59,
+                        "role_id": 3,
+                        "permission_id": 20
+                    },
+                    {
+                        "id": 60,
+                        "role_id": 3,
+                        "permission_id": 24
+                    },
+                    {
+                        "id": 61,
+                        "role_id": 3,
+                        "permission_id": 25
+                    },
+                    {
+                        "id": 62,
+                        "role_id": 3,
+                        "permission_id": 30
+                    },
+                    {
+                        "id": 63,
+                        "role_id": 1,
+                        "permission_id": 31
+                    },
+                    {
+                        "id": 64,
+                        "role_id": 1,
+                        "permission_id": 32
+                    },
+                    {
+                        "id": 65,
+                        "role_id": 1,
+                        "permission_id": 33
+                    },
+                    {
+                        "id": 66,
+                        "role_id": 1,
+                        "permission_id": 34
+                    },
+                    {
+                        "id": 67,
+                        "role_id": 1,
+                        "permission_id": 35
+                    },
+                    {
+                        "id": 68,
+                        "role_id": 2,
+                        "permission_id": 31
+                    },
+                    {
+                        "id": 69,
+                        "role_id": 2,
+                        "permission_id": 32
+                    },
+                    {
+                        "id": 70,
+                        "role_id": 2,
+                        "permission_id": 33
+                    },
+                    {
+                        "id": 71,
+                        "role_id": 2,
+                        "permission_id": 34
+                    },
+                    {
+                        "id": 72,
+                        "role_id": 2,
+                        "permission_id": 35
+                    },
+                    {
+                        "id": 73,
+                        "role_id": 3,
+                        "permission_id": 31
+                    },
+                    {
+                        "id": 74,
+                        "role_id": 3,
+                        "permission_id": 32
+                    },
+                    {
+                        "id": 75,
+                        "role_id": 3,
+                        "permission_id": 34
+                    },
+                    {
+                        "id": 76,
+                        "role_id": 3,
+                        "permission_id": 33
+                    },
+                    {
+                        "id": 77,
+                        "role_id": 3,
+                        "permission_id": 35
+                    },
+                    {
+                        "id": 78,
+                        "role_id": 1,
+                        "permission_id": 36
+                    },
+                    {
+                        "id": 79,
+                        "role_id": 1,
+                        "permission_id": 37
+                    },
+                    {
+                        "id": 80,
+                        "role_id": 1,
+                        "permission_id": 38
+                    },
+                    {
+                        "id": 81,
+                        "role_id": 1,
+                        "permission_id": 39
+                    },
+                    {
+                        "id": 82,
+                        "role_id": 1,
+                        "permission_id": 40
+                    },
+                    {
+                        "id": 83,
+                        "role_id": 2,
+                        "permission_id": 39
+                    },
+                    {
+                        "id": 84,
+                        "role_id": 3,
+                        "permission_id": 39
+                    }
+                ],
+                "permissions_users": [],
+                "posts": [
+                    {
+                        "id": 2,
+                        "uuid": "76ee68b0-f71f-45e8-9352-8475c842e0b8",
+                        "title": "About Dan",
+                        "slug": "about-dan",
+                        "markdown": "My name is Dan Maharry. I'm a UK-based editor and writer. I’ve worked for Microsoft, Wiley, APress, Wrox, and many others. I love learning how technology works and discovering how best to teach that with words, code, and pictures. These days I'm a development editor for [Manning Publications](http://manning.com). This allows me to learn ever more about new technologies, languages, frameworks and disciplines and to share my experience in writing and teaching with many authors. Currently I’m working on a number of books on web development, data science, and big data.\n\nFrom 2013 to 2015, I presented a weekly radio show called [Sixalot](http://mixcloud.com/sixalot) that played a mish-mash of metal, rock, electronica, soundtracks and the stuff in between.\n\nIn days gone by, I was also a .NET developer with past stints for the dotCoop TLD registry and various web development houses under my belt. I wrote a technical, code-related blog for many years. You can read it at [blog.hmobius.com](http://blog.hmobius.com). It also contains an archive of the many blogging projects I’ve tried out while on extended stay-at-home dad duty.\n\n<hr />\n\nIn 1985, my dad bought our family an 8-bit Amstrad CPC. Although the games were fun, I spent more time writing games and applications in BASIC. My interest in programming has remained undiminished since then. \n\nI started writing by accident. The university newspaper wanted volunteers and so I wrote a film and music column for three years and became its editor for a fourth. By chance, my first job happily combined both writing and programming. I became a technical editor for [Wrox Press](http://wrox.com) in late 1997 and edited books on HTML, Javascript, ASP and C++.\n\nIn 1998, I started ASPToday.com, a daily article site for ASP developers, establishing an audience of 10,000 readers before returning back to books as lead and commissioning editor for the Java and Linux teams. \n\nIn mid 2000, I was asked to co-found a new office for Wrox in Bangalore, India, and moved there for seven months as managing editor, hiring and training a team of editors, building a new book pipeline of PHP and Linux titles and organising the sessions for BangLinux 2001, a two-day sold out open source conference.\n\nI had rewritten a few chapters for books in my capacity as editor but on my return from India, I was asked to start the Early Adopter series with James Hart, commissioning, learning and co-writing a short book on a new technology six times a year. I wrote three before the bursting of the dotcom bubble took its toll on Wrox and I took my chance to write, review and edit  freelance for a variety of companies including  Friends Of Ed, Glasshaus, Apress, Wiley, Microsoft Press, Sys-con, Addison Wesley, SAMS, and O’Reilly & Associates, Adaptive Strategy, Telerik, Content Master, Computer Bookshops, PAG, and Microsoft’s e-Learning wing as well as a spell as a web designer with 3Form Ltd.\n\nIn 2005, a new family required a regular income and I began as Technical Manager for [Midcounties Co-operative Domains Ltd](http://mcd.coop), the  registry operator for the [dotCoop](http://nic.coop) sponsored top-level domain name on behalf of DCLLC and ICANN. \n\nI was a senior developer for [Co-operative Web](http:\\\\web.coop), a software development workers’ co-operative based in Birmingham, UK until the end of 2010.\n\nI am now a stay at home father to my daughter and have been lucky enough to work as a freelance development editor for [Manning Publications](http://manning.com) since 2013.",
+                        "html": "<p>My name is Dan Maharry. I'm a UK-based editor and writer. I’ve worked for Microsoft, Wiley, APress, Wrox, and many others. I love learning how technology works and discovering how best to teach that with words, code, and pictures. These days I'm a development editor for <a href=\"http://manning.com\">Manning Publications</a>. This allows me to learn ever more about new technologies, languages, frameworks and disciplines and to share my experience in writing and teaching with many authors. Currently I’m working on a number of books on web development, data science, and big data.</p>\n\n<p>From 2013 to 2015, I presented a weekly radio show called <a href=\"http://mixcloud.com/sixalot\">Sixalot</a> that played a mish-mash of metal, rock, electronica, soundtracks and the stuff in between.</p>\n\n<p>In days gone by, I was also a .NET developer with past stints for the dotCoop TLD registry and various web development houses under my belt. I wrote a technical, code-related blog for many years. You can read it at <a href=\"http://blog.hmobius.com\">blog.hmobius.com</a>. It also contains an archive of the many blogging projects I’ve tried out while on extended stay-at-home dad duty.</p>\n\n<hr />\n\n<p>In 1985, my dad bought our family an 8-bit Amstrad CPC. Although the games were fun, I spent more time writing games and applications in BASIC. My interest in programming has remained undiminished since then. </p>\n\n<p>I started writing by accident. The university newspaper wanted volunteers and so I wrote a film and music column for three years and became its editor for a fourth. By chance, my first job happily combined both writing and programming. I became a technical editor for <a href=\"http://wrox.com\">Wrox Press</a> in late 1997 and edited books on HTML, Javascript, ASP and C++.</p>\n\n<p>In 1998, I started ASPToday.com, a daily article site for ASP developers, establishing an audience of 10,000 readers before returning back to books as lead and commissioning editor for the Java and Linux teams. </p>\n\n<p>In mid 2000, I was asked to co-found a new office for Wrox in Bangalore, India, and moved there for seven months as managing editor, hiring and training a team of editors, building a new book pipeline of PHP and Linux titles and organising the sessions for BangLinux 2001, a two-day sold out open source conference.</p>\n\n<p>I had rewritten a few chapters for books in my capacity as editor but on my return from India, I was asked to start the Early Adopter series with James Hart, commissioning, learning and co-writing a short book on a new technology six times a year. I wrote three before the bursting of the dotcom bubble took its toll on Wrox and I took my chance to write, review and edit  freelance for a variety of companies including  Friends Of Ed, Glasshaus, Apress, Wiley, Microsoft Press, Sys-con, Addison Wesley, SAMS, and O’Reilly &amp; Associates, Adaptive Strategy, Telerik, Content Master, Computer Bookshops, PAG, and Microsoft’s e-Learning wing as well as a spell as a web designer with 3Form Ltd.</p>\n\n<p>In 2005, a new family required a regular income and I began as Technical Manager for <a href=\"http://mcd.coop\">Midcounties Co-operative Domains Ltd</a>, the  registry operator for the <a href=\"http://nic.coop\">dotCoop</a> sponsored top-level domain name on behalf of DCLLC and ICANN. </p>\n\n<p>I was a senior developer for <a href=\"http:\\web.coop\">Co-operative Web</a>, a software development workers’ co-operative based in Birmingham, UK until the end of 2010.</p>\n\n<p>I am now a stay at home father to my daughter and have been lucky enough to work as a freelance development editor for <a href=\"http://manning.com\">Manning Publications</a> since 2013.</p>",
+                        "image": "/content/images/2015/09/Me.jpg",
+                        "featured": 0,
+                        "page": 1,
+                        "status": "published",
+                        "language": "en_US",
+                        "meta_title": "About Dan Maharry",
+                        "meta_description": "Dan Maharry is a writer and editor of many web development books. This is his home page.",
+                        "author_id": 1,
+                        "created_at": "2015-09-14T23:04:57.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-14T23:32:22.000Z",
+                        "updated_by": 1,
+                        "published_at": "2015-09-14T23:31:40.000Z",
+                        "published_by": 1,
+                        "visibility": "public",
+                        "mobiledoc": null
+                    },
+                    {
+                        "id": 3,
+                        "uuid": "690b8e81-2076-4d33-8f79-0aaa7d56b90f",
+                        "title": "Setup (Sep 2015)",
+                        "slug": "setup-sep-2015-2",
+                        "markdown": "**Who are you, and what do you do?**\n\nI'm Dan! I live and work relatively close to the dreaming spires of Oxford in the UK. Currently I'm a senior development editor for [Manning Publications](http://manning.com), although I've written and edited for many publishers over the years. For two years until June 2015, I also curated [The Sixalot Show](http://mixcloud.com/sixalot) for more than a dozen internet radio stations across the globe.\n\n**What hardware do you use?**\n\nI've had various combinations of computers over the years, but I'm currently working with a Dell XPS One 2710 (Core i7, 8GB RAM, 2TB HD) on my desktop at home for the screen size and compactness, backed up with a [Surface 3 Pro](https://www.microsoft.com/surface/en-gb) for coffee shop mornings. The Surface's type cover is OK but I miss the rigidity of a proper laptop. I have a 32GB USB3 stick on my keychain to move work between the two.\n\nI find it hard to work in silence so nearly everything else is audio related. A 2TB NAS Drive for backups, a [Blue Yeti](http://www.bluemic.com/yeti/) microphone for Skype and recording, a pair of [B&W MM-1 active speakers](http://www.bowers-wilkins.co.uk/Speakers/Computer-Speakers/MM-1), and a paid of Denon AH-D600 headphones.\n\nIt seems almost impossible to buy a dumbphone these days - I miss my Nokia 6210 - so I have a [Lumia 1020](https://www.microsoft.com/en-gb/mobile/phone/lumia1020/) with camera grip. It's more of an awesome camera with some phone functionality anyway and it does all the photo backup automatically which is a wonderful thing. I also have an ancient Kindle for offline reading.\n\n**And what software?**\n\nVarious authors work with various file formats so I have Word 365, [Oxygen](http://www.oxygenxml.com/), Adobe Reader and [Atom](https://atom.io/) installed for the four main ones - doc, xml, pdf and asciidoc. I've also used [Notepad++](https://notepad-plus-plus.org/) for years for temporary note taking and basic HTML editing. Outlook looks after my many email accounts and [Slickrun](http://bayden.com/slickrun/) gives me quick access to apps and websites I'm constantly going back to. I'm still learning Windows 10 but it's obviously far better than Windows 8.1 - thank god it has gone.\n\nManning is completely decentralized so Skype, [Trello](https://trello.com/), Google docs and [WebEx](http://www.webex.co.uk/) are a necessity and I would not be without a large Moleskine notebook and four colour pen to keep track of all the book projects I have on the go at the same time. I've tried OneNote, EverNote, SimpleNote, and even todoList but pen and paper trumps them every time. I guess it's because I like working with books :-)\n\nMy music collection is pretty vast at this point (>1TB) but I've always found [Foobar2000](http://www.foobar2000.org/) reliable and as customizable as I need it to be. [The Old Reader](http://theoldreader.com), [Spotify](http://spotify.com) and [Bandcamp](http://bandcamp.com) also help me keep in touch with music news and the latest releases - a habit I've had for many years. I use [Audacity](http://audacityteam.org/) for any audio creation I need.\n\n**What would be your dream setup?**\n\nOn the desktop would be a triple 4:3 monitor setup powered by a silent PC. The One 27 provides lots of pixels but the bezels provide a better separation of concerns. I'd also love to try a [Keyboardio Model 01](http://shop.keyboard.io/). Out and about I'd love a [Dell Precision M6400 Covet](http://www.alphr.com/dell/dell-precision-m6400-covet/30276/dell-precision-m6400-covet-review) rather than the Surface. It's old but would more than suffice for CPU speed. And also, it's bright orange :-)",
+                        "html": "<p><strong>Who are you, and what do you do?</strong></p>\n\n<p>I'm Dan! I live and work relatively close to the dreaming spires of Oxford in the UK. Currently I'm a senior development editor for <a href=\"http://manning.com\">Manning Publications</a>, although I've written and edited for many publishers over the years. For two years until June 2015, I also curated <a href=\"http://mixcloud.com/sixalot\">The Sixalot Show</a> for more than a dozen internet radio stations across the globe.</p>\n\n<p><strong>What hardware do you use?</strong></p>\n\n<p>I've had various combinations of computers over the years, but I'm currently working with a Dell XPS One 2710 (Core i7, 8GB RAM, 2TB HD) on my desktop at home for the screen size and compactness, backed up with a <a href=\"https://www.microsoft.com/surface/en-gb\">Surface 3 Pro</a> for coffee shop mornings. The Surface's type cover is OK but I miss the rigidity of a proper laptop. I have a 32GB USB3 stick on my keychain to move work between the two.</p>\n\n<p>I find it hard to work in silence so nearly everything else is audio related. A 2TB NAS Drive for backups, a <a href=\"http://www.bluemic.com/yeti/\">Blue Yeti</a> microphone for Skype and recording, a pair of <a href=\"http://www.bowers-wilkins.co.uk/Speakers/Computer-Speakers/MM-1\">B&amp;W MM-1 active speakers</a>, and a paid of Denon AH-D600 headphones.</p>\n\n<p>It seems almost impossible to buy a dumbphone these days - I miss my Nokia 6210 - so I have a <a href=\"https://www.microsoft.com/en-gb/mobile/phone/lumia1020/\">Lumia 1020</a> with camera grip. It's more of an awesome camera with some phone functionality anyway and it does all the photo backup automatically which is a wonderful thing. I also have an ancient Kindle for offline reading.</p>\n\n<p><strong>And what software?</strong></p>\n\n<p>Various authors work with various file formats so I have Word 365, <a href=\"http://www.oxygenxml.com/\">Oxygen</a>, Adobe Reader and <a href=\"https://atom.io/\">Atom</a> installed for the four main ones - doc, xml, pdf and asciidoc. I've also used <a href=\"https://notepad-plus-plus.org/\">Notepad++</a> for years for temporary note taking and basic HTML editing. Outlook looks after my many email accounts and <a href=\"http://bayden.com/slickrun/\">Slickrun</a> gives me quick access to apps and websites I'm constantly going back to. I'm still learning Windows 10 but it's obviously far better than Windows 8.1 - thank god it has gone.</p>\n\n<p>Manning is completely decentralized so Skype, <a href=\"https://trello.com/\">Trello</a>, Google docs and <a href=\"http://www.webex.co.uk/\">WebEx</a> are a necessity and I would not be without a large Moleskine notebook and four colour pen to keep track of all the book projects I have on the go at the same time. I've tried OneNote, EverNote, SimpleNote, and even todoList but pen and paper trumps them every time. I guess it's because I like working with books :-)</p>\n\n<p>My music collection is pretty vast at this point (>1TB) but I've always found <a href=\"http://www.foobar2000.org/\">Foobar2000</a> reliable and as customizable as I need it to be. <a href=\"http://theoldreader.com\">The Old Reader</a>, <a href=\"http://spotify.com\">Spotify</a> and <a href=\"http://bandcamp.com\">Bandcamp</a> also help me keep in touch with music news and the latest releases - a habit I've had for many years. I use <a href=\"http://audacityteam.org/\">Audacity</a> for any audio creation I need.</p>\n\n<p><strong>What would be your dream setup?</strong></p>\n\n<p>On the desktop would be a triple 4:3 monitor setup powered by a silent PC. The One 27 provides lots of pixels but the bezels provide a better separation of concerns. I'd also love to try a <a href=\"http://shop.keyboard.io/\">Keyboardio Model 01</a>. Out and about I'd love a <a href=\"http://www.alphr.com/dell/dell-precision-m6400-covet/30276/dell-precision-m6400-covet-review\">Dell Precision M6400 Covet</a> rather than the Surface. It's old but would more than suffice for CPU speed. And also, it's bright orange :-)</p>",
+                        "image": null,
+                        "featured": 0,
+                        "page": 0,
+                        "status": "published",
+                        "language": "en_US",
+                        "meta_title": null,
+                        "meta_description": null,
+                        "author_id": 1,
+                        "created_at": "2015-09-16T21:54:08.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-17T19:00:10.000Z",
+                        "updated_by": 1,
+                        "published_at": "2015-09-17T18:56:11.000Z",
+                        "published_by": 1,
+                        "visibility": "public",
+                        "mobiledoc": null
+                    },
+                    {
+                        "id": 4,
+                        "uuid": "50115f47-5263-417f-9a6e-778b4bd98523",
+                        "title": "Establishing the What",
+                        "slug": "establishing-the-what",
+                        "markdown": "It appears to be late on Saturday night. I am prevaricating with a coffee cup half full of wine that I mistakenly poured in there without a great deal of thought. I suspect many future posts will also be written under such circumstances in the interests of switching my brain on before Sunday comes rather than off as it would prefer. \n\nHello from the top of Steepness hill.\n\nCommon wisdon would have it that the best place to start is always at the beginning. As any fan of David Lynch, that it not necessarily the case because the beginning is where you establish the big things. The what, the why and the how. This post is going to talk (meanderingly) about establishing the what. \n\n---\n\n\"So what is it then?\" comes the cry of the editor. And in response comes an assumed (as this conversation often happens on an audio only call) look of bafflement from the author who has spent many moons working with people who already know, a breath drawn in, and \"Well...\"\n\nThe truth is that there are two things to remember \n\n1. To answer the question directly\n2. To whom you're answering the question.\n\nLet's take a quick moment on each of these ideas\n\n**Answer the question directly**\n\nA book that teaches is not a place for hubris or PR. \n\n- JavaScript is a scripting language\n- A microservice is a web service \n- LESS is a way of writing stylesheets\n\nBam!! And there's the answer. Of course you can then drill into that definition but already the reader knows what ballpark we're in. Web development, desktop apps, big data handling and so on.  Or do they?\n\n**Who are you answering?**\n\nI still subscribe to the idea that at least the first two pages of any tech book should pass the mum test - that any non-programmer should be able to read and follow those first two pages and tell me what they were about. There's a great discipline in being able to do that well. And equally in remembering that any new reader is a lay person.\n\n[Vitorio Miliano](http://opendesign.foundation/articles/import-designers/) says it very well.\n\n> A lay person is \"someone without specialized knowledge,\" and that doesn't mean only non-programmers. For you, a lay person is anyone who doesn't already work on your project, even if they're a programmer of some sort. Your project is the \"specialized knowledge\" in this case. \n\nConsider these three answers to \"What is a web service?\"\n\n- A method of asynchronous client-server communications possible over most messaging protocols, though most commonly HTTP.\n- A mechanism to send requests asynchronously for information to a web server typically as JSON or XML and expect a response back in the same format.\n- A way for a web page or application to talk to a server and get information without having to refresh the page and disturb the user.\n\nIf you can identify who you are answering and their level of knowledge, that should inform you how to answer the question. Can you accurately describe the technology \\ product \\ thing using terminology your reader is certain to know already? A definition is no good if your target audience then has to look up all the other words in the definition because they are \"specialized knowledge\".\n\n---\n\nBut doesn't everyone already think about these two points when answering \"What is it?\" Sadly not. Go to chapter 1, page 1 of many books or to the front page of a project's website and if they attempt to answer the question at all, it tends to be done by sliding around the answer so that you have to imply what it actually is. Let's take a few examples from the web.\n\n- [Polymer](https://www.polymer-project.org/1.0/) is *rebuilt from the ground up for speed and efficiency. The new, leaner core library makes it easier than ever to make fast, beautiful, and interoperable web components.* So that's not helpful. I still don't know what it is. What it does, maybe but only by implication.\n- [Simple.Data](http://simplefx.org/simpledata/docs/) is *a lightweight framework that uses the dynamic features of .NET 4 to provide an expressive, ORM-ish way of accessing and manipulating data without any of the code pre-generation and boilerplate required by other frameworks.* So if I know enough jargon I can imply what it does, but what does ORM-ish mean? What code pre-generation and boilerplate? This definition strays into \"specialized knowledge\". (Worse still, I wrote it a few years ago and no-one has changed it since) \n- [Coffeescript](http://coffeescript.org/) is *a little language that compiles into JavaScript.* Bang! Straightforward. Well done coffeescript team. You've answered the question :-) \n\nIt's not a great onus to remember these two rules when answering but it's easy to get distracted by describing characteristics, features, or what you can do with something first and assume you've answered by implication. Try not to assume. That's makes an ass out of u and me.\n\n",
+                        "html": "<p>It appears to be late on Saturday night. I am prevaricating with a coffee cup half full of wine that I mistakenly poured in there without a great deal of thought. I suspect many future posts will also be written under such circumstances in the interests of switching my brain on before Sunday comes rather than off as it would prefer. </p>\n\n<p>Hello from the top of Steepness hill.</p>\n\n<p>Common wisdon would have it that the best place to start is always at the beginning. As any fan of David Lynch, that it not necessarily the case because the beginning is where you establish the big things. The what, the why and the how. This post is going to talk (meanderingly) about establishing the what. </p>\n\n<hr />\n\n<p>\"So what is it then?\" comes the cry of the editor. And in response comes an assumed (as this conversation often happens on an audio only call) look of bafflement from the author who has spent many moons working with people who already know, a breath drawn in, and \"Well...\"</p>\n\n<p>The truth is that there are two things to remember </p>\n\n<ol>\n<li>To answer the question directly  </li>\n<li>To whom you're answering the question.</li>\n</ol>\n\n<p>Let's take a quick moment on each of these ideas</p>\n\n<p><strong>Answer the question directly</strong></p>\n\n<p>A book that teaches is not a place for hubris or PR. </p>\n\n<ul>\n<li>JavaScript is a scripting language</li>\n<li>A microservice is a web service </li>\n<li>LESS is a way of writing stylesheets</li>\n</ul>\n\n<p>Bam!! And there's the answer. Of course you can then drill into that definition but already the reader knows what ballpark we're in. Web development, desktop apps, big data handling and so on.  Or do they?</p>\n\n<p><strong>Who are you answering?</strong></p>\n\n<p>I still subscribe to the idea that at least the first two pages of any tech book should pass the mum test - that any non-programmer should be able to read and follow those first two pages and tell me what they were about. There's a great discipline in being able to do that well. And equally in remembering that any new reader is a lay person.</p>\n\n<p><a href=\"http://opendesign.foundation/articles/import-designers/\">Vitorio Miliano</a> says it very well.</p>\n\n<blockquote>\n  <p>A lay person is \"someone without specialized knowledge,\" and that doesn't mean only non-programmers. For you, a lay person is anyone who doesn't already work on your project, even if they're a programmer of some sort. Your project is the \"specialized knowledge\" in this case. </p>\n</blockquote>\n\n<p>Consider these three answers to \"What is a web service?\"</p>\n\n<ul>\n<li>A method of asynchronous client-server communications possible over most messaging protocols, though most commonly HTTP.</li>\n<li>A mechanism to send requests asynchronously for information to a web server typically as JSON or XML and expect a response back in the same format.</li>\n<li>A way for a web page or application to talk to a server and get information without having to refresh the page and disturb the user.</li>\n</ul>\n\n<p>If you can identify who you are answering and their level of knowledge, that should inform you how to answer the question. Can you accurately describe the technology \\ product \\ thing using terminology your reader is certain to know already? A definition is no good if your target audience then has to look up all the other words in the definition because they are \"specialized knowledge\".</p>\n\n<hr />\n\n<p>But doesn't everyone already think about these two points when answering \"What is it?\" Sadly not. Go to chapter 1, page 1 of many books or to the front page of a project's website and if they attempt to answer the question at all, it tends to be done by sliding around the answer so that you have to imply what it actually is. Let's take a few examples from the web.</p>\n\n<ul>\n<li><a href=\"https://www.polymer-project.org/1.0/\">Polymer</a> is <em>rebuilt from the ground up for speed and efficiency. The new, leaner core library makes it easier than ever to make fast, beautiful, and interoperable web components.</em> So that's not helpful. I still don't know what it is. What it does, maybe but only by implication.</li>\n<li><a href=\"http://simplefx.org/simpledata/docs/\">Simple.Data</a> is <em>a lightweight framework that uses the dynamic features of .NET 4 to provide an expressive, ORM-ish way of accessing and manipulating data without any of the code pre-generation and boilerplate required by other frameworks.</em> So if I know enough jargon I can imply what it does, but what does ORM-ish mean? What code pre-generation and boilerplate? This definition strays into \"specialized knowledge\". (Worse still, I wrote it a few years ago and no-one has changed it since) </li>\n<li><a href=\"http://coffeescript.org/\">Coffeescript</a> is <em>a little language that compiles into JavaScript.</em> Bang! Straightforward. Well done coffeescript team. You've answered the question :-) </li>\n</ul>\n\n<p>It's not a great onus to remember these two rules when answering but it's easy to get distracted by describing characteristics, features, or what you can do with something first and assume you've answered by implication. Try not to assume. That's makes an ass out of u and me.</p>",
+                        "image": null,
+                        "featured": 0,
+                        "page": 0,
+                        "status": "published",
+                        "language": "en_US",
+                        "meta_title": null,
+                        "meta_description": null,
+                        "author_id": 1,
+                        "created_at": "2015-09-28T19:56:36.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-28T20:39:05.000Z",
+                        "updated_by": 1,
+                        "published_at": "2015-09-28T20:39:05.000Z",
+                        "published_by": 1,
+                        "visibility": "public",
+                        "mobiledoc": null
+                    },
+                    {
+                        "id": 5,
+                        "uuid": "ad4a2dca-47c1-4ea9-b328-cd83181024fe",
+                        "title": "What is Probabilistic Programming?",
+                        "slug": "what-is-probabilistic-programming",
+                        "markdown": "_Sometimes as part of editing a book, I find the need to write my own notes or version of the book's content so it works in my head better. Occasionally I'll post some of those notes up here. This is from my work on [Practical Probabilistic Programming](https://www.manning.com/books/practical-probabilistic-programming) by Avi Pfeffer._\n\nWhen working with computers, instructions are very black and white. The answers are yes or no. If something has happened, do this. If not, do that. However, the real world is not often like that - there are rarely clear yes or no answers to the questions we care about. Often the only response we get is somewhere in between - a maybe or a could do - and we have to react to that.\n\nSuppose Chris has been advised by his doctor that he needs surgery to treat a back problem. Does he believe his doctor and schedule the surgery? There are a lot of unknowns and uncertainties involved in his decision. \n\n- Does Chris believe the tests which have revealed his condition to the doctor? They might be wrong.\n- Does Chris believe the surgery will actually remedy his condition?\n- Does Chris believe the condition might go away on its own if he does not have surgery?\n- Does Chris believe he could deal with the level of ongoing discomfort in his back if he does not have surgery?\n\nChris cannot wait until he is 100% sure of the answers to his questions to make a decision. He must act based on the information given to him. \n\nThe doctor cannot give Chris yes and no answers but can say there that based on prior evidence, there is \n\n- an 80% chance the tests are right, \n- a 90% chance the surgery will be successful, \n- a 60% chance it will go away on its own, \n- a 40% chance he could live with the pain until it does clear up. \n\nThe doctor also reminds Chris that these are just statistics and don't take into account the fact that he has already had surgery on his back when he was a child, his level of fitness (Chris is a frequent pub-goer), or how good his surgeon is. \nBased on these statistics and some reading around the subject, Chris eventually decides to have the surgery and after three months his back is 100% healthy. Good for him.\n\n---\n\nAll walks of life involve decisions where the outcome is uncertain, and probabilities can be a guide to making those decisions. Will a product sell better if it is orange or if it is black? Will a goal be scored from this free kick given the distance and the weather? Will the share price go up at lunchtime, based on selling or not selling other shares? Will little William walk home on time given he's going past the sweet shop and the traffic is heavy? And so on. The problem is that, as Chris discovered, statistics are only a guide.\n\nThere are two main limitations to relying solely on statistics to decisions.\n\n1. Statistics cannot take into account the specifics of any given situation. Chris had stats on the surgery in general, but not when applied to a person of his medical history, fitness level, and surgeon's ability.\n2. Statistics are only inputs used to inform a decision. They don't actually tell you how to make that decision based on their input. Chris had the statistics given him by the doctor but chose to read more on the procedure before using those statistics to make a decision.\n\nThe interaction between these three factors - **raw stats** (in-general knowledge), **the specifics of a situation** (here-and-now knowledge), and **the mechanics of the decision-making** - are the basis of probabilistic reasoning which is the science on which probabilistic programming is based.\n\nProbabilistic Programming is a new technology where we can train computers to think in shades of grey and not just the black and white yes and no that they are customarily associated with. They can grow wiser by learning from the past, predicting the future and basing their decisions on both in-general, and here-and-now knowledge. (Oh yes, Skynet could happen :-)",
+                        "html": "<p><em>Sometimes as part of editing a book, I find the need to write my own notes or version of the book's content so it works in my head better. Occasionally I'll post some of those notes up here. This is from my work on <a href=\"https://www.manning.com/books/practical-probabilistic-programming\">Practical Probabilistic Programming</a> by Avi Pfeffer.</em></p>\n\n<p>When working with computers, instructions are very black and white. The answers are yes or no. If something has happened, do this. If not, do that. However, the real world is not often like that - there are rarely clear yes or no answers to the questions we care about. Often the only response we get is somewhere in between - a maybe or a could do - and we have to react to that.</p>\n\n<p>Suppose Chris has been advised by his doctor that he needs surgery to treat a back problem. Does he believe his doctor and schedule the surgery? There are a lot of unknowns and uncertainties involved in his decision. </p>\n\n<ul>\n<li>Does Chris believe the tests which have revealed his condition to the doctor? They might be wrong.</li>\n<li>Does Chris believe the surgery will actually remedy his condition?</li>\n<li>Does Chris believe the condition might go away on its own if he does not have surgery?</li>\n<li>Does Chris believe he could deal with the level of ongoing discomfort in his back if he does not have surgery?</li>\n</ul>\n\n<p>Chris cannot wait until he is 100% sure of the answers to his questions to make a decision. He must act based on the information given to him. </p>\n\n<p>The doctor cannot give Chris yes and no answers but can say there that based on prior evidence, there is </p>\n\n<ul>\n<li>an 80% chance the tests are right, </li>\n<li>a 90% chance the surgery will be successful, </li>\n<li>a 60% chance it will go away on its own, </li>\n<li>a 40% chance he could live with the pain until it does clear up. </li>\n</ul>\n\n<p>The doctor also reminds Chris that these are just statistics and don't take into account the fact that he has already had surgery on his back when he was a child, his level of fitness (Chris is a frequent pub-goer), or how good his surgeon is. <br />\nBased on these statistics and some reading around the subject, Chris eventually decides to have the surgery and after three months his back is 100% healthy. Good for him.</p>\n\n<hr />\n\n<p>All walks of life involve decisions where the outcome is uncertain, and probabilities can be a guide to making those decisions. Will a product sell better if it is orange or if it is black? Will a goal be scored from this free kick given the distance and the weather? Will the share price go up at lunchtime, based on selling or not selling other shares? Will little William walk home on time given he's going past the sweet shop and the traffic is heavy? And so on. The problem is that, as Chris discovered, statistics are only a guide.</p>\n\n<p>There are two main limitations to relying solely on statistics to decisions.</p>\n\n<ol>\n<li>Statistics cannot take into account the specifics of any given situation. Chris had stats on the surgery in general, but not when applied to a person of his medical history, fitness level, and surgeon's ability.  </li>\n<li>Statistics are only inputs used to inform a decision. They don't actually tell you how to make that decision based on their input. Chris had the statistics given him by the doctor but chose to read more on the procedure before using those statistics to make a decision.</li>\n</ol>\n\n<p>The interaction between these three factors - <strong>raw stats</strong> (in-general knowledge), <strong>the specifics of a situation</strong> (here-and-now knowledge), and <strong>the mechanics of the decision-making</strong> - are the basis of probabilistic reasoning which is the science on which probabilistic programming is based.</p>\n\n<p>Probabilistic Programming is a new technology where we can train computers to think in shades of grey and not just the black and white yes and no that they are customarily associated with. They can grow wiser by learning from the past, predicting the future and basing their decisions on both in-general, and here-and-now knowledge. (Oh yes, Skynet could happen :-)</p>",
+                        "image": null,
+                        "featured": 0,
+                        "page": 0,
+                        "status": "published",
+                        "language": "en_US",
+                        "meta_title": null,
+                        "meta_description": null,
+                        "author_id": 1,
+                        "created_at": "2015-10-08T19:38:54.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-10-08T19:47:04.000Z",
+                        "updated_by": 1,
+                        "published_at": "2015-10-08T19:47:04.000Z",
+                        "published_by": 1,
+                        "visibility": "public",
+                        "mobiledoc": null
+                    },
+                    {
+                        "id": 6,
+                        "uuid": "e12d8d12-51ae-4d31-9a29-a9d9ff9d9b5e",
+                        "title": "A Baker's Dozen (2015 Edition)",
+                        "slug": "a-bakers-dozen-2015-edition",
+                        "markdown": "One of the finest music sites out there at the moment is [The Quietus](http://www.thequietus.com/). It’s full of fine music commentary, opinions, interviews and intelligence. The Baker’s Dozen is a selection of 13 albums by an artist. For what ever reason. I wrote mine as an exercise back in 2012 but times and a radio show change things a bit, so there are some changes including a way to listen to it.\n\n<iframe width=\"100%\" height=\"180\" src=\"https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=9e197320-e902-49ba-82e2-9cc6e7019def&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fsixalot%2Fsixalot-069-a-bakers-dozen%2F&amp;hide_artwork=1&amp;hide_cover=1&amp;hide_tracklist=1&amp;light=1&amp;replace=0\" frameborder=\"0\"></iframe><div style=\"clear: both; height: 3px; width: auto;\"></div><p style=\"display: block; font-size: 11px; font-family: 'Open Sans', Helvetica, Arial, sans-serif; margin: 0px; padding: 3px 4px; color: rgb(153, 153, 153); width: auto;\"><a href=\"https://www.mixcloud.com/sixalot/sixalot-069-a-bakers-dozen/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=resource_link\" target=\"_blank\" style=\"color:#808080; font-weight:bold;\">Sixalot #069 : A Bakers Dozen</a><span> by </span><a href=\"https://www.mixcloud.com/sixalot/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=profile_link\" target=\"_blank\" style=\"color:#808080; font-weight:bold;\">The Sixalot Show</a><span> on </span><a href=\"https://www.mixcloud.com/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=homepage_link\" target=\"_blank\" style=\"color:#808080; font-weight:bold;\"> Mixcloud</a></p><div style=\"clear: both; height: 3px; width: auto;\"></div>\n\nAnd here's why what's in it is in it.\n\n![Oxygene Cover](http://ecx.images-amazon.com/images/I/51tTqXbOUdL._SL500_AA300_.jpg)\n\n**Jean-Michel Jarre : Oxygene** I wouldn't be a fan of music without Jean-Michel Jarre. There wasn't really any music around the house so I hadn't listened to much beyond a few videos on TV. Our music teacher had asked the class to bring in and play their favourite thing. I had brought nothing and simply endured. I remember the last track played being Duran Duran's The Reflex and thinking \"Thank God that's over.\" There were two minutes left before the klaxon so the class chatted while teacher put his own music on. And I stayed in the classroom for the entire of break to listen to as much as I could. He'd put on Jarre's Oxygene. I've no idea why a ten year old would be so blown over by it, but there you go. It was also the first thing I played on the radio.\n\n![The Extremist Cover](http://ecx.images-amazon.com/images/I/41QcGPEnNhL._SL500_AA300_.jpg)\n\n**Joe Satriani : The Extremist**\nNot long after the Oxygene incident, a different music teacher told the class the school was hiring a guitar tutor for a day a week. Did anyone want to learn? Seeing this as a great excuse to not attend Geography (bloody oxbow lakes) and remembering an old classical guitar in the back of my mum’s wardrobe, I stuck my hand up. Naturally I then started borrowing tapes of rock bands from school mates. *Number of the Beast* came first accompanied by a summer of badly imitating Dave Murray and wondering how so many notes could be played so fast.\n\nWe were on a school trip somewhere and the two guys in front of me were sharing a walkman listening to a bright pink tape—Steve Vai's *Passion and Warfare*—and a red one—Joe Satriani's *Surfing With The Alien*. I can’t recall why I didn’t connect with Surfing at the time, but I do vividly remember The Extremist being the first tape I bought on day of release, and the first I broke with constant listening. Actually, I broke the tape twice—thank heavens for CDs.\n\n![Heavy as a Really Heavy Thing Cover](http://ecx.images-amazon.com/images/I/51gxOARWZtL._SL500_AA300_.jpg)\n\n**Strapping Young Lad : Heavy as a Really Heavy Thing**\nOne of the many gear changes Steve Vai has made in his career was to follow up Passion and Warfare, which many still hold up as one of the best shred albums ever, with *Sex and Religion*, a band effort that brought forth the heaviest, most evil-sounding music he’s ever done and in hindsight was the template for several of his later albums. Adding to the core of this sound was a 19 year old canuck named Devin Townsend who brought a love of Godflesh, Grotus and other heavy influences with him.\n\nDevin didn't really enjoy being the singer for hire in Vai's band, left and recorded Heavy as a Really Heavy Thing under the moniker Strapping Young Lad. Dripping with frustration, anger, rage, and a wall of noise that would drop you from fifty yards, it is still an amazing thing to listen to. The next album *City* is arguably ...Heavy Thing done better, but this was the turning I made down the path into darker, more extreme musical realms.\n\n![Aenima Cover](http://ecx.images-amazon.com/images/I/51RpKf9APDL._SL500_AA300_.jpg)\n\n**Tool : Aenima** \nIt is a very privileged position to find yourself in a university magazine office happy to review music that no-one else wants to touch and films that no-one else wants to see. *Aenima* came in one day in 1996, got a listen or two, and got put on a shelf for several years. This is, of course, not how Tool should be heard. All their albums are thick with juicy layers to be peeled back with repeated listening and persistence. It took until Nine Inch Nails' *The Fragile* and Tool's follow-up album *Lateralus* appeared and I was now editing books that I started to rediscover the joy of hearing music I had lost towards the end of my reviewing days. Hello *Downward Spiral*, hello Aenima. Still brilliant.\n\n![Jane Doe Cover](http://ecx.images-amazon.com/images/I/51xn7KmZH2L._SL500_AA300_.jpg)\n\n**Converge : Jane Doe**\nI love hearing something completely new. \"Lend me some good music Chris\", I said. And I was handed Jane Doe.\n\nConverge's Jane Doe is the sound of someone's face being torn off with sound. You will never forget the first time you hear the opener *Concubine \\ Fault and Fracture*. Jacob Bannon's tortured screaming over Kurt Ballou's frenzied guitar is terrifying and compelling. Then slower tracks like *Hell To Pay* and *Thaw* salve with one hand and saw with the other. There's hardcore and then there's Jane Doe.\n\n![SMM Context cover](http://ecx.images-amazon.com/images/I/51xIoAgNPWL._SL500_AA300_.jpg)\n\n**Various : SMM Context**\nOne of the people I worked for also co-ran his own electronic music record label, Type. I took this coincidence as an opportunity to delve into electronica, ambient and boomkat music and see what I liked. Type is fortunately not rooted to one style of audio and I can think of many reasons to include one of its albums in this list, but Ghostly International’s SMM Context compilation remains a great example of everything I like in electronica today.\n\n![The Bees Made Honey in the Lions Skull Cover](http://ecx.images-amazon.com/images/I/61KUM9ul0RL._SL500_AA300_.jpg)\n\n**Earth : The Bees Made Honey In the Lion’s Skull** \nWhat makes this album quite so astonishing to me is how evocatively slow it is. When you’re listening to Vai, Satriani, Gilbert and many others noodling solos at 150bpm and then slam into an album at barely 60bpm for its entirety which has no sense of waste or drag to it, it’s an amazing thing. ...Lions Skull is like lying in a field of corn in Tornado Alley with the air crackling expectantly around you as watch the darkest, most massive thundercloud be blown ever slowly, ever inevitably towards you.\n\n![Third Cover](http://ecx.images-amazon.com/images/I/31x8CN4O55L._SL500_AA300_.jpg)\n\n**Portishead : Third** Manchester in the early to mid nineties was full of the end of Hacienda, Take That and the beginnings of Oasis and Britpop. Which is fine if you like that sort of thing. I found myself frequenting the Academy and assorted venues for Anthrax, Rollins and Machine Head on one end of the musical spectrum, bypassing the entire nascent Madchester in the middle and finding trip-hop at the other. Maybe I should have gone to uni in Bristol. I missed a ticket to see Portishead in 1994. Who knew we'd have to wait 14 years until *Third* came out. At least they had the decency to make a bloody good comeback. :-)\n\n![Mirrored cover](http://ecx.images-amazon.com/images/I/51QpYOBdJPL._SL500_AA300_.jpg)\n\n**Battles : Mirrored** The funny thing about Battles is that they have always been a quartet even though their fourth member, Tyondai Braxton, left after they made Mirrored. With *Gloss Drop* and *La Di Da Di* the in to the music has been the ever interesting videos marking the loops and overlapping themes in an otherwise now-impenetrable music. Just have a listen to *My Machines* and *The Yabba* and then see the videos. Tyondai brought a sense of fun and an entry point to Battles which I miss. Warren Ellis once described *Atlas*, a track on Mirrored, as alien smurf rock. Which about covers it.\n\n![Wreckage of Stars cover](http://ecx.images-amazon.com/images/I/51sm3xyWpzL._SL500_AA300_.jpg)\n\n**Black Crown Initiate : The Wreckage of Stars**\n\nMy favourite album from the first eighteen months on the radio, The Wreckage of Stars is the best of mid-period Opeth combined with the best aspects of Mastodon and it is huge. Somehow it's also BCI's debut album which is ridiculous. If this is a one-off then thanks to the music gods for letting it happen, but here's to praying that they get better and better as both Opeth and Mastodon have done in the past.\n\n![Field Drawings cover](http://ecx.images-amazon.com/images/I/419NlBk4TzL._SL500_AA300_.jpg)\n\n**Ryan Teague : Field Drawings**\n\nRyan made a couple of early records for Type but they were more typically classical - preludes and fantasias. As time has gone by, he has transitioned more towards the modern minimalist style noticeably taking cues from Steve Reich and Philip Glass. *Field Drawings* has its pulses, loops, phases, and strings, but it has a naive charm to it as well and like Mirrored, Aenima and many others on this it has a lot under the covers to discover (even if it is in the minimalist style)\n\n![Girl with the Dragon Tattoo cover](http://ecx.images-amazon.com/images/I/41tRQVnxltL._SL500_AA300_.jpg)\n\n**Trent Reznor & Atticus Ross : Girl with the Dragon Tattoo** Soundtracks are a vastly underrated source of amazing music evoking emotion, tension, heightening chases, excitement, desolation, isolation and so on. Reznor & Ross's second collaboration with director David Fincher is a massive exercise in the semiotics of music. It's not as warm as something from Clint Mansell or Cliff Martinez but then have you seen the film? \n\n![New Bermuda cover](http://ecx.images-amazon.com/images/I/61gTf6c-W7L._SL500_AA300_.jpg)\n\n**Deafheaven : New Bermuda**  \n\nOh to be surprised. To find those moments which swerve on you, which make you smile, which make you stop and rewind to play again. For me, New Bermuda is my latest find and may well be my favourite of 2015.",
+                        "html": "<p>One of the finest music sites out there at the moment is <a href=\"http://www.thequietus.com/\">The Quietus</a>. It’s full of fine music commentary, opinions, interviews and intelligence. The Baker’s Dozen is a selection of 13 albums by an artist. For what ever reason. I wrote mine as an exercise back in 2012 but times and a radio show change things a bit, so there are some changes including a way to listen to it.</p>\n\n<p><iframe width=\"100%\" height=\"180\" src=\"https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=9e197320-e902-49ba-82e2-9cc6e7019def&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fsixalot%2Fsixalot-069-a-bakers-dozen%2F&amp;hide_artwork=1&amp;hide_cover=1&amp;hide_tracklist=1&amp;light=1&amp;replace=0\" frameborder=\"0\"></iframe><div style=\"clear: both; height: 3px; width: auto;\"></div><p style=\"display: block; font-size: 11px; font-family: 'Open Sans', Helvetica, Arial, sans-serif; margin: 0px; padding: 3px 4px; color: rgb(153, 153, 153); width: auto;\"><a href=\"https://www.mixcloud.com/sixalot/sixalot-069-a-bakers-dozen/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=resource_link\" target=\"_blank\" style=\"color:#808080; font-weight:bold;\">Sixalot #069 : A Bakers Dozen</a><span> by </span><a href=\"https://www.mixcloud.com/sixalot/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=profile_link\" target=\"_blank\" style=\"color:#808080; font-weight:bold;\">The Sixalot Show</a><span> on </span><a href=\"https://www.mixcloud.com/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=homepage_link\" target=\"_blank\" style=\"color:#808080; font-weight:bold;\"> Mixcloud</a></p><div style=\"clear: both; height: 3px; width: auto;\"></div></p>\n\n<p>And here's why what's in it is in it.</p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/51tTqXbOUdL._SL500_AA300_.jpg\" alt=\"Oxygene Cover\" /></p>\n\n<p><strong>Jean-Michel Jarre : Oxygene</strong> I wouldn't be a fan of music without Jean-Michel Jarre. There wasn't really any music around the house so I hadn't listened to much beyond a few videos on TV. Our music teacher had asked the class to bring in and play their favourite thing. I had brought nothing and simply endured. I remember the last track played being Duran Duran's The Reflex and thinking \"Thank God that's over.\" There were two minutes left before the klaxon so the class chatted while teacher put his own music on. And I stayed in the classroom for the entire of break to listen to as much as I could. He'd put on Jarre's Oxygene. I've no idea why a ten year old would be so blown over by it, but there you go. It was also the first thing I played on the radio.</p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/41QcGPEnNhL._SL500_AA300_.jpg\" alt=\"The Extremist Cover\" /></p>\n\n<p><strong>Joe Satriani : The Extremist</strong>\nNot long after the Oxygene incident, a different music teacher told the class the school was hiring a guitar tutor for a day a week. Did anyone want to learn? Seeing this as a great excuse to not attend Geography (bloody oxbow lakes) and remembering an old classical guitar in the back of my mum’s wardrobe, I stuck my hand up. Naturally I then started borrowing tapes of rock bands from school mates. <em>Number of the Beast</em> came first accompanied by a summer of badly imitating Dave Murray and wondering how so many notes could be played so fast.</p>\n\n<p>We were on a school trip somewhere and the two guys in front of me were sharing a walkman listening to a bright pink tape—Steve Vai's <em>Passion and Warfare</em>—and a red one—Joe Satriani's <em>Surfing With The Alien</em>. I can’t recall why I didn’t connect with Surfing at the time, but I do vividly remember The Extremist being the first tape I bought on day of release, and the first I broke with constant listening. Actually, I broke the tape twice—thank heavens for CDs.</p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/51gxOARWZtL._SL500_AA300_.jpg\" alt=\"Heavy as a Really Heavy Thing Cover\" /></p>\n\n<p><strong>Strapping Young Lad : Heavy as a Really Heavy Thing</strong>\nOne of the many gear changes Steve Vai has made in his career was to follow up Passion and Warfare, which many still hold up as one of the best shred albums ever, with <em>Sex and Religion</em>, a band effort that brought forth the heaviest, most evil-sounding music he’s ever done and in hindsight was the template for several of his later albums. Adding to the core of this sound was a 19 year old canuck named Devin Townsend who brought a love of Godflesh, Grotus and other heavy influences with him.</p>\n\n<p>Devin didn't really enjoy being the singer for hire in Vai's band, left and recorded Heavy as a Really Heavy Thing under the moniker Strapping Young Lad. Dripping with frustration, anger, rage, and a wall of noise that would drop you from fifty yards, it is still an amazing thing to listen to. The next album <em>City</em> is arguably ...Heavy Thing done better, but this was the turning I made down the path into darker, more extreme musical realms.</p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/51RpKf9APDL._SL500_AA300_.jpg\" alt=\"Aenima Cover\" /></p>\n\n<p><strong>Tool : Aenima</strong> \nIt is a very privileged position to find yourself in a university magazine office happy to review music that no-one else wants to touch and films that no-one else wants to see. <em>Aenima</em> came in one day in 1996, got a listen or two, and got put on a shelf for several years. This is, of course, not how Tool should be heard. All their albums are thick with juicy layers to be peeled back with repeated listening and persistence. It took until Nine Inch Nails' <em>The Fragile</em> and Tool's follow-up album <em>Lateralus</em> appeared and I was now editing books that I started to rediscover the joy of hearing music I had lost towards the end of my reviewing days. Hello <em>Downward Spiral</em>, hello Aenima. Still brilliant.</p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/51xn7KmZH2L._SL500_AA300_.jpg\" alt=\"Jane Doe Cover\" /></p>\n\n<p><strong>Converge : Jane Doe</strong>\nI love hearing something completely new. \"Lend me some good music Chris\", I said. And I was handed Jane Doe.</p>\n\n<p>Converge's Jane Doe is the sound of someone's face being torn off with sound. You will never forget the first time you hear the opener <em>Concubine \\ Fault and Fracture</em>. Jacob Bannon's tortured screaming over Kurt Ballou's frenzied guitar is terrifying and compelling. Then slower tracks like <em>Hell To Pay</em> and <em>Thaw</em> salve with one hand and saw with the other. There's hardcore and then there's Jane Doe.</p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/51xIoAgNPWL._SL500_AA300_.jpg\" alt=\"SMM Context cover\" /></p>\n\n<p><strong>Various : SMM Context</strong>\nOne of the people I worked for also co-ran his own electronic music record label, Type. I took this coincidence as an opportunity to delve into electronica, ambient and boomkat music and see what I liked. Type is fortunately not rooted to one style of audio and I can think of many reasons to include one of its albums in this list, but Ghostly International’s SMM Context compilation remains a great example of everything I like in electronica today.</p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/61KUM9ul0RL._SL500_AA300_.jpg\" alt=\"The Bees Made Honey in the Lions Skull Cover\" /></p>\n\n<p><strong>Earth : The Bees Made Honey In the Lion’s Skull</strong> \nWhat makes this album quite so astonishing to me is how evocatively slow it is. When you’re listening to Vai, Satriani, Gilbert and many others noodling solos at 150bpm and then slam into an album at barely 60bpm for its entirety which has no sense of waste or drag to it, it’s an amazing thing. ...Lions Skull is like lying in a field of corn in Tornado Alley with the air crackling expectantly around you as watch the darkest, most massive thundercloud be blown ever slowly, ever inevitably towards you.</p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/31x8CN4O55L._SL500_AA300_.jpg\" alt=\"Third Cover\" /></p>\n\n<p><strong>Portishead : Third</strong> Manchester in the early to mid nineties was full of the end of Hacienda, Take That and the beginnings of Oasis and Britpop. Which is fine if you like that sort of thing. I found myself frequenting the Academy and assorted venues for Anthrax, Rollins and Machine Head on one end of the musical spectrum, bypassing the entire nascent Madchester in the middle and finding trip-hop at the other. Maybe I should have gone to uni in Bristol. I missed a ticket to see Portishead in 1994. Who knew we'd have to wait 14 years until <em>Third</em> came out. At least they had the decency to make a bloody good comeback. :-)</p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/51QpYOBdJPL._SL500_AA300_.jpg\" alt=\"Mirrored cover\" /></p>\n\n<p><strong>Battles : Mirrored</strong> The funny thing about Battles is that they have always been a quartet even though their fourth member, Tyondai Braxton, left after they made Mirrored. With <em>Gloss Drop</em> and <em>La Di Da Di</em> the in to the music has been the ever interesting videos marking the loops and overlapping themes in an otherwise now-impenetrable music. Just have a listen to <em>My Machines</em> and <em>The Yabba</em> and then see the videos. Tyondai brought a sense of fun and an entry point to Battles which I miss. Warren Ellis once described <em>Atlas</em>, a track on Mirrored, as alien smurf rock. Which about covers it.</p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/51sm3xyWpzL._SL500_AA300_.jpg\" alt=\"Wreckage of Stars cover\" /></p>\n\n<p><strong>Black Crown Initiate : The Wreckage of Stars</strong></p>\n\n<p>My favourite album from the first eighteen months on the radio, The Wreckage of Stars is the best of mid-period Opeth combined with the best aspects of Mastodon and it is huge. Somehow it's also BCI's debut album which is ridiculous. If this is a one-off then thanks to the music gods for letting it happen, but here's to praying that they get better and better as both Opeth and Mastodon have done in the past.</p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/419NlBk4TzL._SL500_AA300_.jpg\" alt=\"Field Drawings cover\" /></p>\n\n<p><strong>Ryan Teague : Field Drawings</strong></p>\n\n<p>Ryan made a couple of early records for Type but they were more typically classical - preludes and fantasias. As time has gone by, he has transitioned more towards the modern minimalist style noticeably taking cues from Steve Reich and Philip Glass. <em>Field Drawings</em> has its pulses, loops, phases, and strings, but it has a naive charm to it as well and like Mirrored, Aenima and many others on this it has a lot under the covers to discover (even if it is in the minimalist style)</p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/41tRQVnxltL._SL500_AA300_.jpg\" alt=\"Girl with the Dragon Tattoo cover\" /></p>\n\n<p><strong>Trent Reznor &amp; Atticus Ross : Girl with the Dragon Tattoo</strong> Soundtracks are a vastly underrated source of amazing music evoking emotion, tension, heightening chases, excitement, desolation, isolation and so on. Reznor &amp; Ross's second collaboration with director David Fincher is a massive exercise in the semiotics of music. It's not as warm as something from Clint Mansell or Cliff Martinez but then have you seen the film? </p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/61gTf6c-W7L._SL500_AA300_.jpg\" alt=\"New Bermuda cover\" /></p>\n\n<p><strong>Deafheaven : New Bermuda</strong>  </p>\n\n<p>Oh to be surprised. To find those moments which swerve on you, which make you smile, which make you stop and rewind to play again. For me, New Bermuda is my latest find and may well be my favourite of 2015.</p>",
+                        "image": null,
+                        "featured": 0,
+                        "page": 0,
+                        "status": "published",
+                        "language": "en_US",
+                        "meta_title": null,
+                        "meta_description": null,
+                        "author_id": 1,
+                        "created_at": "2015-10-21T20:22:44.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-10-25T19:02:09.000Z",
+                        "updated_by": 1,
+                        "published_at": "2015-10-25T18:51:28.000Z",
+                        "published_by": 1,
+                        "visibility": "public",
+                        "mobiledoc": null
+                    },
+                    {
+                        "id": 7,
+                        "uuid": "372b8873-796e-4cb5-82f8-63460933b34e",
+                        "title": "Remembering how to radio",
+                        "slug": "remembering-how-to-radio",
+                        "markdown": "Ola people! Sitting up here on Steepness Hill, it feels like we've been back in Blitz with the barrage of fireworks the neighbours have ignited for the past hour. But we've have survived, dashed out the Vera Lynn, kept calm and carried on etc.\n\nThere's a new hour of music up on Mixcloud. Some staid tracks from the cannon of the late 90s grunge vs nu metal battles and a few others that feel sort of right. Full tracklist at the end. \n\n<iframe width=\"100%\" height=\"180\" src=\"https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=a7b40a34-4c41-4aaf-a075-fab597a859f3&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fsixalot%2Fsixalot-070-the-99-part-1-2nd-gen%2F&amp;hide_artwork=1&amp;hide_cover=1&amp;hide_tracklist=1&amp;light=1&amp;replace=0\" frameborder=\"0\"></iframe>\n\nActually trying desperately to get back into the mechanics of doing something weekly outside of the book stuff. There's a potential weekly project on the horizon and I need to get some rust off the musical joints. Which means probably quite a lot of output between now and the end of the year as I snorkle through what I have and commit it back to sense memory before new things start to appear. For now, there'll be a fair amount of nostalgia trips.\n\nTo keep it interesting, I'll stick a pair of contrasting new albums from Bandcamp here from time to time. First up in the new solo album from Kode9, the boss of Hyperdub Records and therefore father of dubstep and many of the bass-y genres that exist today. \n\n\n<iframe style=\"border: 0; width: 100%; height: 42px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2904241090/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/\" seamless><a href=\"http://kode9.bandcamp.com/album/kode9-nothing\">Kode9: Nothing by kode9</a></iframe>\n\n\nAlso relatively new is Sistere the debut album from the band IZAH. It's being lauded by nearly all the metal sites online at the moment for its polished doom \\ post-metal. Well worth a try if you've not listened to anything like this before.\n\n\n<iframe style=\"border: 0; width: 100%; height: 42px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2317323560/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/\" seamless><a href=\"http://izahband.bandcamp.com/album/sistere\">Sistere by IZAH</a></iframe>\n\n\nThere's a lot of great stuff being released on bandcamp at the moment. You can find my profile at https://bandcamp.com/hmobius if you're interested and follow my music twitter account @thesixalotshow for more frequent updates. \n\nUntil the next time!\n\n* Probot & Mike Dean - Access Babylon / Probot\n* Queens of the Stone Age - Hangin' Tree / Songs for the Deaf\n* Deftones - Around The Fur / Around The Fur\n* Bruce Dickinson - Strange Death in Paradise / Skunkworks\n* Nine Inch Nails - The Four of Us Are Dying / The Slip\n* Soundgarden - Fresh Tendrils / Superunknown\n* Rollins Band - Thinking Cap / Get Some Go Again\n* Two - My Ceiling's Low / Voyeurs\n* A Perfect Circle - The Package / Thirteenth Step\n* Korn - Got the Life / Follow The Leader\n* Papa Roach - Last Resort / Infest\n* Nirvana - Heart Shaped Box / In Utero\n* Probot & Tom G. Warrior - Big Sky / Probot\n* Clutch - X-Ray Visions / Psychic Warfare\n* Wrong - Call It / Stop Giving",
+                        "html": "<p>Ola people! Sitting up here on Steepness Hill, it feels like we've been back in Blitz with the barrage of fireworks the neighbours have ignited for the past hour. But we've have survived, dashed out the Vera Lynn, kept calm and carried on etc.</p>\n\n<p>There's a new hour of music up on Mixcloud. Some staid tracks from the cannon of the late 90s grunge vs nu metal battles and a few others that feel sort of right. Full tracklist at the end. </p>\n\n<iframe width=\"100%\" height=\"180\" src=\"https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=a7b40a34-4c41-4aaf-a075-fab597a859f3&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fsixalot%2Fsixalot-070-the-99-part-1-2nd-gen%2F&amp;hide_artwork=1&amp;hide_cover=1&amp;hide_tracklist=1&amp;light=1&amp;replace=0\" frameborder=\"0\"></iframe>\n\n<p>Actually trying desperately to get back into the mechanics of doing something weekly outside of the book stuff. There's a potential weekly project on the horizon and I need to get some rust off the musical joints. Which means probably quite a lot of output between now and the end of the year as I snorkle through what I have and commit it back to sense memory before new things start to appear. For now, there'll be a fair amount of nostalgia trips.</p>\n\n<p>To keep it interesting, I'll stick a pair of contrasting new albums from Bandcamp here from time to time. First up in the new solo album from Kode9, the boss of Hyperdub Records and therefore father of dubstep and many of the bass-y genres that exist today. </p>\n\n<iframe style=\"border: 0; width: 100%; height: 42px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2904241090/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/\" seamless><a href=\"http://kode9.bandcamp.com/album/kode9-nothing\">Kode9: Nothing by kode9</a></iframe>\n\n<p>Also relatively new is Sistere the debut album from the band IZAH. It's being lauded by nearly all the metal sites online at the moment for its polished doom \\ post-metal. Well worth a try if you've not listened to anything like this before.</p>\n\n<iframe style=\"border: 0; width: 100%; height: 42px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2317323560/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/\" seamless><a href=\"http://izahband.bandcamp.com/album/sistere\">Sistere by IZAH</a></iframe>\n\n<p>There's a lot of great stuff being released on bandcamp at the moment. You can find my profile at <a href=\"https://bandcamp.com/hmobius\">https://bandcamp.com/hmobius</a> if you're interested and follow my music twitter account @thesixalotshow for more frequent updates. </p>\n\n<p>Until the next time!</p>\n\n<ul>\n<li>Probot &amp; Mike Dean - Access Babylon / Probot</li>\n<li>Queens of the Stone Age - Hangin' Tree / Songs for the Deaf</li>\n<li>Deftones - Around The Fur / Around The Fur</li>\n<li>Bruce Dickinson - Strange Death in Paradise / Skunkworks</li>\n<li>Nine Inch Nails - The Four of Us Are Dying / The Slip</li>\n<li>Soundgarden - Fresh Tendrils / Superunknown</li>\n<li>Rollins Band - Thinking Cap / Get Some Go Again</li>\n<li>Two - My Ceiling's Low / Voyeurs</li>\n<li>A Perfect Circle - The Package / Thirteenth Step</li>\n<li>Korn - Got the Life / Follow The Leader</li>\n<li>Papa Roach - Last Resort / Infest</li>\n<li>Nirvana - Heart Shaped Box / In Utero</li>\n<li>Probot &amp; Tom G. Warrior - Big Sky / Probot</li>\n<li>Clutch - X-Ray Visions / Psychic Warfare</li>\n<li>Wrong - Call It / Stop Giving</li>\n</ul>",
+                        "image": "/content/images/2015/11/dad-s-old-radio.jpg",
+                        "featured": 0,
+                        "page": 0,
+                        "status": "published",
+                        "language": "en_US",
+                        "meta_title": null,
+                        "meta_description": null,
+                        "author_id": 1,
+                        "created_at": "2015-11-07T22:21:00.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-11-07T22:55:25.000Z",
+                        "updated_by": 1,
+                        "published_at": "2015-11-07T22:44:58.000Z",
+                        "published_by": 1,
+                        "visibility": "public",
+                        "mobiledoc": null
+                    },
+                    {
+                        "id": 8,
+                        "uuid": "e0b4cbd0-ef67-48f0-b512-957d1e11cc5c",
+                        "title": "James Bond and an  art project",
+                        "slug": "james-bond-and-an-art-project",
+                        "markdown": "Managed to catch a screening of Spectre this week. Whether you like Bond films or not, you can't argue that they know how to create an opening scene. The Mexico City sequence is suitably spectacular and not a little over the top. And of course that little bit more amazing when you consider that EON do as much as they can for real rather than in a computer. So that's 2000 extras all in full costume, floats, building destruction, a curtailed chase as Daniel Craig injured his knee half way through, and a barrel-rolling chopper at low level. Before the opening credits. It's good to know that some films are prepared to keep it real even if the likelihood of [recreating Gandhi's funeral for real again with an estimated 300,000 extras](https://www.youtube.com/watch?v=lRHjpHzpg8c) is somewhat unlikely thanks to WETA's [Massive software](http://www.massivesoftware.com/about.html) making it that much easier to do in the virtual realm. Of course, Bond was always good at barking mad openers too. My favourite to date remains Pierce Brosnan's debut bungee jumping off a dam, maiming Sean Bean, and then mostly defying the laws of physics to escape. Makes me want to grab some copies of the original Bond novels, binge-read them all and then see if Warren Ellis' new comic [VARGR](http://www.mtv.com/news/2367375/james-bond-vargr-comic/) is indeed _Ian Fleming's James Bond_ or not. Maybe VARGR will end up as the basis for a movie in 20 years time as well. \n\nSide note : Given the mostly equal length of both series, regenerations and similarly out there plots fighting for the human race in general, why would a newcomer to both Bond and Doctor Who not think that 007 was a timelord with additional guns?\n\n+++\n\nI've started playing with [ifttt.com](http://ifttt.com) again. If you see random things in my twitter stream or facebook feed, that's why. \n\n+++\n\nI've managed to finish what I rather grandly refer to as an art project but was more a technical exercise to learn about the printing process, thicknesses of paper, vector graphics and to save some of my now elderly CD digipaks from getting too knackered. And so now I'm the proud owner of 14 Nine Inch Nails albums and singles in custom Super Jewel Cases which I really like for design and durability. Nine Inch Nails has also tried to push the boundaries on packaging so quite a few of these albums don't have traditional CD booklets, so besides trying to give them a nice sleek, uniform packet, I had to reproduce several of the inlays as well. Here's a picture of them all lined from the front and if you're interested, [there are several more shots of the backs, sides and inlays in this gallery.](https://www.facebook.com/media/set/?set=a.10156300744825381.1073741829.867985380&type=1&l=002a19a215)\n\n![Front Designs](/content/images/2015/11/Fronts.jpg)\n\n+++\n\nTwo more records to check out on Bandcamp for you. The first is Jo Hamilton. Who hits the sweet spot between Julia Fordham and Adele. Why she hasn't more recognition is beyond me because this is a great album. \n\n<iframe style=\"border: 0; width: 100%; height: 42px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=537095353/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/\" seamless><a href=\"http://johamiltongown.bandcamp.com/album/gown-special-edition\">Gown - special edition by Jo Hamilton</a></iframe>\n\nAnd the second is a trip to Jamaica via Tokyo for some reggae. Dub Store Records is a record store dedicated to reviving and re-releasing old, reggae, ska and rocksteady singles. This one is Granville Williams & his Orchestra and their covers of Wailin' & Old McDonald. \n\n<iframe style=\"border: 0; width: 100%; height: 42px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1446115915/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/\" seamless><a href=\"http://dubstorerecords.bandcamp.com/album/granville-williams-his-orchestra-wailin-old-mcdonald\">Granville Williams &amp; His Orchestra - Wailin&#39; / Old McDonald by Dub Store Records</a></iframe>\n\nYes, that Old McDonald. You're welcome.",
+                        "html": "<p>Managed to catch a screening of Spectre this week. Whether you like Bond films or not, you can't argue that they know how to create an opening scene. The Mexico City sequence is suitably spectacular and not a little over the top. And of course that little bit more amazing when you consider that EON do as much as they can for real rather than in a computer. So that's 2000 extras all in full costume, floats, building destruction, a curtailed chase as Daniel Craig injured his knee half way through, and a barrel-rolling chopper at low level. Before the opening credits. It's good to know that some films are prepared to keep it real even if the likelihood of <a href=\"https://www.youtube.com/watch?v=lRHjpHzpg8c\">recreating Gandhi's funeral for real again with an estimated 300,000 extras</a> is somewhat unlikely thanks to WETA's <a href=\"http://www.massivesoftware.com/about.html\">Massive software</a> making it that much easier to do in the virtual realm. Of course, Bond was always good at barking mad openers too. My favourite to date remains Pierce Brosnan's debut bungee jumping off a dam, maiming Sean Bean, and then mostly defying the laws of physics to escape. Makes me want to grab some copies of the original Bond novels, binge-read them all and then see if Warren Ellis' new comic <a href=\"http://www.mtv.com/news/2367375/james-bond-vargr-comic/\">VARGR</a> is indeed <em>Ian Fleming's James Bond</em> or not. Maybe VARGR will end up as the basis for a movie in 20 years time as well. </p>\n\n<p>Side note : Given the mostly equal length of both series, regenerations and similarly out there plots fighting for the human race in general, why would a newcomer to both Bond and Doctor Who not think that 007 was a timelord with additional guns?</p>\n\n<p>+++</p>\n\n<p>I've started playing with <a href=\"http://ifttt.com\">ifttt.com</a> again. If you see random things in my twitter stream or facebook feed, that's why. </p>\n\n<p>+++</p>\n\n<p>I've managed to finish what I rather grandly refer to as an art project but was more a technical exercise to learn about the printing process, thicknesses of paper, vector graphics and to save some of my now elderly CD digipaks from getting too knackered. And so now I'm the proud owner of 14 Nine Inch Nails albums and singles in custom Super Jewel Cases which I really like for design and durability. Nine Inch Nails has also tried to push the boundaries on packaging so quite a few of these albums don't have traditional CD booklets, so besides trying to give them a nice sleek, uniform packet, I had to reproduce several of the inlays as well. Here's a picture of them all lined from the front and if you're interested, <a href=\"https://www.facebook.com/media/set/?set=a.10156300744825381.1073741829.867985380&amp;type=1&amp;l=002a19a215\">there are several more shots of the backs, sides and inlays in this gallery.</a></p>\n\n<p><img src=\"/content/images/2015/11/Fronts.jpg\" alt=\"Front Designs\" /></p>\n\n<p>+++</p>\n\n<p>Two more records to check out on Bandcamp for you. The first is Jo Hamilton. Who hits the sweet spot between Julia Fordham and Adele. Why she hasn't more recognition is beyond me because this is a great album. </p>\n\n<iframe style=\"border: 0; width: 100%; height: 42px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=537095353/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/\" seamless><a href=\"http://johamiltongown.bandcamp.com/album/gown-special-edition\">Gown - special edition by Jo Hamilton</a></iframe>\n\n<p>And the second is a trip to Jamaica via Tokyo for some reggae. Dub Store Records is a record store dedicated to reviving and re-releasing old, reggae, ska and rocksteady singles. This one is Granville Williams &amp; his Orchestra and their covers of Wailin' &amp; Old McDonald. </p>\n\n<iframe style=\"border: 0; width: 100%; height: 42px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1446115915/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/\" seamless><a href=\"http://dubstorerecords.bandcamp.com/album/granville-williams-his-orchestra-wailin-old-mcdonald\">Granville Williams &amp; His Orchestra - Wailin&#39; / Old McDonald by Dub Store Records</a></iframe>\n\n<p>Yes, that Old McDonald. You're welcome.</p>",
+                        "image": "/content/images/2015/11/23bondspectredaydead2810a.jpg",
+                        "featured": 0,
+                        "page": 0,
+                        "status": "published",
+                        "language": "en_US",
+                        "meta_title": null,
+                        "meta_description": null,
+                        "author_id": 1,
+                        "created_at": "2015-11-09T11:20:10.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-11-18T12:34:31.000Z",
+                        "updated_by": 1,
+                        "published_at": "2015-11-18T12:31:00.000Z",
+                        "published_by": 1,
+                        "visibility": "public",
+                        "mobiledoc": null
+                    },
+                    {
+                        "id": 9,
+                        "uuid": "be5e2fa8-02b1-4439-9e13-64d24dd15bb8",
+                        "title": "Windows 10 November Update getting stuck? Check Your Event Log",
+                        "slug": "windows-10-november-update-getting-stuck-check-your-event-log",
+                        "markdown": "[The first main update for Windows 10](http://www.windowscentral.com/whats-new-windows-10-fall-update) was made available for download and installation through Windows Update and also via ISO file last week. As tempting as it might be to just download the ISO and install it [because there is no difference between the two](http://www.windowscentral.com/whats-difference-upgrading-windows-10) I decided to let update do it in the background because that's how it should work right? \n\nAfter a few days, I checked Windows Update to see if Build 1511 had been made available. Yes it had, but even after I started it manually, the update was failing silently for no obvious reason. All the other updates were installing fine but not this one. Grr. A quick Google revealed that many others were having an issue but usually during the actual installation process. Windows Update for me wasn't even starting the install. Maybe the Event Log would help?\n\nAs it turns out, the application log was full of errors generated every 30 seconds by the SPP-Security service saying something like **Failed to schedule Software Protection service for re-start at 2113-01-12T17:08:03Z. Error Code: 0x80041316** It turns out that sometimes the tasks run by the Software Protection Security service - which checks your version of Windows is genuine - break. If they can't run, then *Build 1511 won't download and install because Windows can't verify your copy of Windows is genuine*.\n\nLooking through the many posts on that error, there seem to be two possible fixes to this which aren't the _brute force repave your machine_ responses from several not-that-helpful forum admins.\n\n* [The XML config file for one of the tasks has been updated and contains an unexpected node you need to correct](http://blogs.msmvps.com/alunj/2013/09/22/security-spp-errors-in-the-event-log-every-thirty-seconds/)\n* [The XML config files for the tasks have been corrupted somehow and need to be replaced with fresh copies](https://social.technet.microsoft.com/Forums/windows/en-US/3bd4309d-4eaa-469a-9fc5-1554ac0f6246/failed-to-schedule-software-protection-service-for-restart-at-21130112t170803z-error-code)\n\nOption two worked for me. I had to grab a copy of the task config files from my spare machine, and reimport them into the task scheduler. One reboot later and Build 1511 downloaded and installed just fine. Hopefully this will help you too.",
+                        "html": "<p><a href=\"http://www.windowscentral.com/whats-new-windows-10-fall-update\">The first main update for Windows 10</a> was made available for download and installation through Windows Update and also via ISO file last week. As tempting as it might be to just download the ISO and install it <a href=\"http://www.windowscentral.com/whats-difference-upgrading-windows-10\">because there is no difference between the two</a> I decided to let update do it in the background because that's how it should work right? </p>\n\n<p>After a few days, I checked Windows Update to see if Build 1511 had been made available. Yes it had, but even after I started it manually, the update was failing silently for no obvious reason. All the other updates were installing fine but not this one. Grr. A quick Google revealed that many others were having an issue but usually during the actual installation process. Windows Update for me wasn't even starting the install. Maybe the Event Log would help?</p>\n\n<p>As it turns out, the application log was full of errors generated every 30 seconds by the SPP-Security service saying something like <strong>Failed to schedule Software Protection service for re-start at 2113-01-12T17:08:03Z. Error Code: 0x80041316</strong> It turns out that sometimes the tasks run by the Software Protection Security service - which checks your version of Windows is genuine - break. If they can't run, then <em>Build 1511 won't download and install because Windows can't verify your copy of Windows is genuine</em>.</p>\n\n<p>Looking through the many posts on that error, there seem to be two possible fixes to this which aren't the <em>brute force repave your machine</em> responses from several not-that-helpful forum admins.</p>\n\n<ul>\n<li><a href=\"http://blogs.msmvps.com/alunj/2013/09/22/security-spp-errors-in-the-event-log-every-thirty-seconds/\">The XML config file for one of the tasks has been updated and contains an unexpected node you need to correct</a></li>\n<li><a href=\"https://social.technet.microsoft.com/Forums/windows/en-US/3bd4309d-4eaa-469a-9fc5-1554ac0f6246/failed-to-schedule-software-protection-service-for-restart-at-21130112t170803z-error-code\">The XML config files for the tasks have been corrupted somehow and need to be replaced with fresh copies</a></li>\n</ul>\n\n<p>Option two worked for me. I had to grab a copy of the task config files from my spare machine, and reimport them into the task scheduler. One reboot later and Build 1511 downloaded and installed just fine. Hopefully this will help you too.</p>",
+                        "image": null,
+                        "featured": 0,
+                        "page": 0,
+                        "status": "published",
+                        "language": "en_US",
+                        "meta_title": null,
+                        "meta_description": null,
+                        "author_id": 1,
+                        "created_at": "2015-11-18T13:02:22.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-11-18T13:29:23.000Z",
+                        "updated_by": 1,
+                        "published_at": "2015-11-18T13:29:23.000Z",
+                        "published_by": 1,
+                        "visibility": "public",
+                        "mobiledoc": null
+                    },
+                    {
+                        "id": 10,
+                        "uuid": "5cc59fff-d9de-4d2c-877a-d9ca5ff2e433",
+                        "title": "Albums of 2015",
+                        "slug": "albums-of-2015",
+                        "markdown": "Another year, another splendid hamper full of musical treats across all genres. And so it's time for another best of list. And if you'd like something to listen to while you read, here's a Spotify playlist with three and a half hours of my favourite tunes as well. \n\n<iframe src=\"https://embed.spotify.com/?uri=spotify%3Auser%3Ahmobius%3Aplaylist%3A6XJqsr1W1Os1DaovYGmgNs\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\"></iframe>\n\nBut single songs do not an otherwise dire album improve, so onto the long players. First up, some honourable mentions for platters that didn't quite make the top ten.\n\n* *Darwin Deez - Double Down* : Chock full of bright and breezy indie pop pitch perfect for a Drew Barrymore or Zach Braff comedy romance soundtrack.\n* *Jarboe & Helen Money - Wired* : There's no such thing as a boring Jarboe release and this is dark, oppressive and disturbing thanks to Money's heavy, distorted cello and Jarboe's vox.\n* *Reso - Ricochet* : Blinding drum n bass / jungle release from Reso with his customary electronic squelches and Orbital-like vox samples playing support to new old school beats.\n* *Public Service Broadcasting - The Race for Space* : PSB's sophomore album plunders the apollo archive for stories and moments to support with sympathetic music.\n* *Steve 'n' Seagulls - Farm Machine* : Hayseed Dixie have done it for a while but this Finnish group really hit the nail on the head with their semi tongue in cheek dixieland jug band covers of metal and rock standards.\n* *Jake Shimakaburo - Travels* : TED-favourite ukelele virtuoso with another beautiful album of covers and originals.\n* *Seasick Steve - Sonic Soul Surfer* : Sixth album of stripped down toe-tapping hobo hubcap music full of grins and gurns.\n* *Xavier Rudd - Nanna* : Sublime eco-friendly reggae from Aussie Rudd who brings along a new nine piece band for added carefree fun.\n* *Five Gallon Bottle - Five Gallon Bottle* : Cracking debut bandcamp ep from Greek stoners.\n\nAnd now for the top ten\n\n![Fantastic Planet Cover](http://ecx.images-amazon.com/images/I/51f-Z1TF%2BNL._SL500_AA300_.jpg)\n\n**10 : Noveller - Fantastic Planet** \nThere's a dry, arid quality to Sarah Lipstate's latest album that has not been present before. The more blunt electronic tones of *No Dreams* have been replaced by shimmering, almost mirages of sound more reminiscent of The Alps or the last Boards of Canada LP. Which is ironic really because while it evokes heat and thirst, it's actually a great glass of refreshing music in an wasteland of efforts that tried the same trick this year but failed.  \n\n![Sistere Cover](http://ecx.images-amazon.com/images/I/51jFPEVsBuL._SL500_AA300_.jpg)\n\n**9 : Izah - Sistere**\nEpic doesn't really begin to cover this album. At four tracks and over 70 minutes long, there's really no indication that Dutch band Izah have ever come across the concept of a single. That this album of dark atmospheric post-metal is their debut is all to their credit. It seems not to have been written so much as composed with their triple guitar lines building up, interleaving, giving space to vox and sometimes quite disturbing spoken word passages, reworking themes and segueing seamlessly into new sections as they go along. It's not for the faint of heart but is remarkably enjoyable with a good glass of whisky. \n\n![Electronica 1 : The Time Machine Cover](http://ecx.images-amazon.com/images/I/51a1mHHA64L._SL500_AA300_.jpg)\n\n**8 : Jean-Michel Jarre - Electronica 1 : The Time Machine**\nSome eight years since the unwise release of Teo & Tea and fifteen since his last official album before that, one of the pioneers of electronic music is back with the first half of a double album of collaborations that look back and celebrate electronic music from its origins in the 60s to today's evolution of subgenres and key players. The Time Machine moniker is very apt. Jarre's trademark Fairlight and Moog synths from the 80s are present alongside iPads, Ableton Live, Theremin, Laser Harp and back to oscillators from the early days and his collaborators also span the decades from Tangerine Dream and John Carpenter through to Boys Noize and Gesaffelstein. With every track you can hear the interactions between Jarre and his collaborators which is great so it's not a surprise therefore that a couple of tracks are less successful than the rest. However it's a very solid return and we've only to wait until April 2016 for part 2. \n\nHonestly, you wait years for a new album to come along and then two arrive at the same time. And I thought it was just busses....\n\n![Nomad Frequencies Cover](http://ecx.images-amazon.com/images/I/21SjOoNKnfL._SL500_AA300_.jpg)\n\n**7 : John Lemke - Nomad Frequencies**\nFew albums really tell a story these days. The age of the MP3 has almost drowned out the album in favour of the single track. Perhaps the vinyl renaissance will encourage bands to think on the larger scale in the future? For now, we have a wealth of soundtracks and those with a reverence to prog to rely on for a bigger fix. John Lemke is a soundtrack composer by trade but Nomad Frequencies is his second full length solo release. Taking its cues from both his world travel and his day job, NF is a night time adventure through different cultures. It's exciting, full of anticipation, uptempo, downbeat, and most importantly to me at least, a complete story in one album. Its one to put on, close your eyes and breathe in.\n\n![Where Moss Grows Cover](http://ecx.images-amazon.com/images/I/51C1lMzKliL._SL500_AA300_.jpg)\n\n**6 : Hidden Rivers - Where Moss Grows**\nIf Noveller went dry and John Lemke went global, then as the title suggests, this piece by Hidden Rivers depicts the newly damp, the dew of the mornings, the drips in a cave and the idly babbling brook. Inadvertently, it's very much an alternate soundtrack to the [new Channel 4 idents](https://www.youtube.com/watch?v=aWvUJATjJDE) that Jonathan Glaser put together this year as well. \n\n![Tres Caballeros Cover](https://images-eu.ssl-images-amazon.com/images/I/51A2onulk0L._SL500_AA300_.jpg)\n\n**5 : The Aristocrats - Tres Caballeros**\nA supergroup of sorts for guitar nerds, The Aristocrats' brand of fusion guitar instrumentals mixing Jazz, Rock, Blues, Funk and Prog with a definite desire not to take themselves too seriously might well be too left of centre for fans of the band's day jobs but their third album Tres Caballeros is their best and most imaginative so far. \n\n![Bleeder Cover](https://images-eu.ssl-images-amazon.com/images/I/711sfyG7eiL._SL500_AA300_.jpg)\n\n**4 : Mutoid Man - Bleeder**\nMutoid Man's Bleeder is the sound of its members letting off steam and just having some fun making music. That the results are all killer, no filler (if you'll pardon the cliché) and the most enjoyable straight up hard rock of the year is no doubt a bonus. Here we have a collection of two to three minute edges with refrains and riffs catchy enough to have even the diecast Taylor Swift fans in the family bobbing and singing along. It's all direct, to the point, frenetic and fun fun fun.\n\n![Repentless Cover](https://images-eu.ssl-images-amazon.com/images/I/61%2BIgSSL0hL._SL500_AA300_.jpg)\n\n**3 : Slayer - Repentless**\nIn most parallel universes, this album doesn't exist. In the hiatus between the release of their previous album World Painted Blood and this one, their lead singer & bass player Tom has had surgery to to put a titanium plate in his neck to repair damage caused by years of headbanging, while their co-lead guitar player Jeff first contracted necrotising fasciitis from a spider bite, and then died last year of liver failure. Oh, and their drummer left - again. I think most quartets in their situation would have called it a day after that lot. 30+ years and 12 albums into their career, no-one would have cried foul. But this is Slayer we're talking about. Slayer who have spent a career writing and performing songs about the dark side of humanity and the terrible things that will assault you from all sides. Slayer who have taken this adversity and used it to inform one of their best ever albums, a tightly wound slab of thrash that would have sat proudly amongst the high quality canon of thrash albums in the late 80s when it was the defining sound of metal. Repentless by title, repentless by nature, this is not just a Slayer album, it's a Slay-AAARRRGGGHH album.\n\n![V Cover](https://images-eu.ssl-images-amazon.com/images/I/51SwBFlSeHL._SL500_AA300_.jpg)\n\n**2 : Scale The Summit - V**\nBack in October a video appeared on Youtube of many [metal standards played without distortion](https://www.youtube.com/watch?v=PznnIHVZ3gQ). Which begs the question what can you do with a metal guitar outside that standard overdrive, fuzzy sound? Where can you take the music. Scale The Summit's fifth album of instrumentals neatly answers that. And almost capsizes it as well. Sans-vox none of their ten pieces here particularly obey a standard structure but do explore their own sound and style of playing, but what should we expect from a band of music majors - twelve bar blues? Ultimately V is a really rewarding album if you give it enough time to figure it out. Come for the guitar craft, stay for the puzzle, live for the explanation.\n\n![New Bermuda Cover](https://images-eu.ssl-images-amazon.com/images/I/61gTf6c-W7L._SL500_AA300_.jpg)\n\n**1 : Deafheaven - New Bermuda** And so to number one. It wasn't even close. When Deafheaven released their previous album Sunbather a few years ago, they got almost as much press for the fact they tried to do something different with that post black metal platter as for the fact it was actually really very good. Cue the release of New Bermuda and not only have they continued to experiment with the set formula of the genre, but they've also almost created a hybrid which is almost entirely accessible to anyone who cares to listen to something other than trite chart nonsense. Its roots are still evident but now there are delicious solos and intermissions building on what they had with Sunbather. \n\nListen if you have ears, for they will not offend you. \n\n\n\n\n",
+                        "html": "<p>Another year, another splendid hamper full of musical treats across all genres. And so it's time for another best of list. And if you'd like something to listen to while you read, here's a Spotify playlist with three and a half hours of my favourite tunes as well. </p>\n\n<iframe src=\"https://embed.spotify.com/?uri=spotify%3Auser%3Ahmobius%3Aplaylist%3A6XJqsr1W1Os1DaovYGmgNs\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\"></iframe>\n\n<p>But single songs do not an otherwise dire album improve, so onto the long players. First up, some honourable mentions for platters that didn't quite make the top ten.</p>\n\n<ul>\n<li><em>Darwin Deez - Double Down</em> : Chock full of bright and breezy indie pop pitch perfect for a Drew Barrymore or Zach Braff comedy romance soundtrack.</li>\n<li><em>Jarboe &amp; Helen Money - Wired</em> : There's no such thing as a boring Jarboe release and this is dark, oppressive and disturbing thanks to Money's heavy, distorted cello and Jarboe's vox.</li>\n<li><em>Reso - Ricochet</em> : Blinding drum n bass / jungle release from Reso with his customary electronic squelches and Orbital-like vox samples playing support to new old school beats.</li>\n<li><em>Public Service Broadcasting - The Race for Space</em> : PSB's sophomore album plunders the apollo archive for stories and moments to support with sympathetic music.</li>\n<li><em>Steve 'n' Seagulls - Farm Machine</em> : Hayseed Dixie have done it for a while but this Finnish group really hit the nail on the head with their semi tongue in cheek dixieland jug band covers of metal and rock standards.</li>\n<li><em>Jake Shimakaburo - Travels</em> : TED-favourite ukelele virtuoso with another beautiful album of covers and originals.</li>\n<li><em>Seasick Steve - Sonic Soul Surfer</em> : Sixth album of stripped down toe-tapping hobo hubcap music full of grins and gurns.</li>\n<li><em>Xavier Rudd - Nanna</em> : Sublime eco-friendly reggae from Aussie Rudd who brings along a new nine piece band for added carefree fun.</li>\n<li><em>Five Gallon Bottle - Five Gallon Bottle</em> : Cracking debut bandcamp ep from Greek stoners.</li>\n</ul>\n\n<p>And now for the top ten</p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/51f-Z1TF%2BNL._SL500_AA300_.jpg\" alt=\"Fantastic Planet Cover\" /></p>\n\n<p><strong>10 : Noveller - Fantastic Planet</strong> \nThere's a dry, arid quality to Sarah Lipstate's latest album that has not been present before. The more blunt electronic tones of <em>No Dreams</em> have been replaced by shimmering, almost mirages of sound more reminiscent of The Alps or the last Boards of Canada LP. Which is ironic really because while it evokes heat and thirst, it's actually a great glass of refreshing music in an wasteland of efforts that tried the same trick this year but failed.  </p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/51jFPEVsBuL._SL500_AA300_.jpg\" alt=\"Sistere Cover\" /></p>\n\n<p><strong>9 : Izah - Sistere</strong>\nEpic doesn't really begin to cover this album. At four tracks and over 70 minutes long, there's really no indication that Dutch band Izah have ever come across the concept of a single. That this album of dark atmospheric post-metal is their debut is all to their credit. It seems not to have been written so much as composed with their triple guitar lines building up, interleaving, giving space to vox and sometimes quite disturbing spoken word passages, reworking themes and segueing seamlessly into new sections as they go along. It's not for the faint of heart but is remarkably enjoyable with a good glass of whisky. </p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/51a1mHHA64L._SL500_AA300_.jpg\" alt=\"Electronica 1 : The Time Machine Cover\" /></p>\n\n<p><strong>8 : Jean-Michel Jarre - Electronica 1 : The Time Machine</strong>\nSome eight years since the unwise release of Teo &amp; Tea and fifteen since his last official album before that, one of the pioneers of electronic music is back with the first half of a double album of collaborations that look back and celebrate electronic music from its origins in the 60s to today's evolution of subgenres and key players. The Time Machine moniker is very apt. Jarre's trademark Fairlight and Moog synths from the 80s are present alongside iPads, Ableton Live, Theremin, Laser Harp and back to oscillators from the early days and his collaborators also span the decades from Tangerine Dream and John Carpenter through to Boys Noize and Gesaffelstein. With every track you can hear the interactions between Jarre and his collaborators which is great so it's not a surprise therefore that a couple of tracks are less successful than the rest. However it's a very solid return and we've only to wait until April 2016 for part 2. </p>\n\n<p>Honestly, you wait years for a new album to come along and then two arrive at the same time. And I thought it was just busses....</p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/21SjOoNKnfL._SL500_AA300_.jpg\" alt=\"Nomad Frequencies Cover\" /></p>\n\n<p><strong>7 : John Lemke - Nomad Frequencies</strong>\nFew albums really tell a story these days. The age of the MP3 has almost drowned out the album in favour of the single track. Perhaps the vinyl renaissance will encourage bands to think on the larger scale in the future? For now, we have a wealth of soundtracks and those with a reverence to prog to rely on for a bigger fix. John Lemke is a soundtrack composer by trade but Nomad Frequencies is his second full length solo release. Taking its cues from both his world travel and his day job, NF is a night time adventure through different cultures. It's exciting, full of anticipation, uptempo, downbeat, and most importantly to me at least, a complete story in one album. Its one to put on, close your eyes and breathe in.</p>\n\n<p><img src=\"http://ecx.images-amazon.com/images/I/51C1lMzKliL._SL500_AA300_.jpg\" alt=\"Where Moss Grows Cover\" /></p>\n\n<p><strong>6 : Hidden Rivers - Where Moss Grows</strong>\nIf Noveller went dry and John Lemke went global, then as the title suggests, this piece by Hidden Rivers depicts the newly damp, the dew of the mornings, the drips in a cave and the idly babbling brook. Inadvertently, it's very much an alternate soundtrack to the <a href=\"https://www.youtube.com/watch?v=aWvUJATjJDE\">new Channel 4 idents</a> that Jonathan Glaser put together this year as well. </p>\n\n<p><img src=\"https://images-eu.ssl-images-amazon.com/images/I/51A2onulk0L._SL500_AA300_.jpg\" alt=\"Tres Caballeros Cover\" /></p>\n\n<p><strong>5 : The Aristocrats - Tres Caballeros</strong>\nA supergroup of sorts for guitar nerds, The Aristocrats' brand of fusion guitar instrumentals mixing Jazz, Rock, Blues, Funk and Prog with a definite desire not to take themselves too seriously might well be too left of centre for fans of the band's day jobs but their third album Tres Caballeros is their best and most imaginative so far. </p>\n\n<p><img src=\"https://images-eu.ssl-images-amazon.com/images/I/711sfyG7eiL._SL500_AA300_.jpg\" alt=\"Bleeder Cover\" /></p>\n\n<p><strong>4 : Mutoid Man - Bleeder</strong>\nMutoid Man's Bleeder is the sound of its members letting off steam and just having some fun making music. That the results are all killer, no filler (if you'll pardon the cliché) and the most enjoyable straight up hard rock of the year is no doubt a bonus. Here we have a collection of two to three minute edges with refrains and riffs catchy enough to have even the diecast Taylor Swift fans in the family bobbing and singing along. It's all direct, to the point, frenetic and fun fun fun.</p>\n\n<p><img src=\"https://images-eu.ssl-images-amazon.com/images/I/61%2BIgSSL0hL._SL500_AA300_.jpg\" alt=\"Repentless Cover\" /></p>\n\n<p><strong>3 : Slayer - Repentless</strong>\nIn most parallel universes, this album doesn't exist. In the hiatus between the release of their previous album World Painted Blood and this one, their lead singer &amp; bass player Tom has had surgery to to put a titanium plate in his neck to repair damage caused by years of headbanging, while their co-lead guitar player Jeff first contracted necrotising fasciitis from a spider bite, and then died last year of liver failure. Oh, and their drummer left - again. I think most quartets in their situation would have called it a day after that lot. 30+ years and 12 albums into their career, no-one would have cried foul. But this is Slayer we're talking about. Slayer who have spent a career writing and performing songs about the dark side of humanity and the terrible things that will assault you from all sides. Slayer who have taken this adversity and used it to inform one of their best ever albums, a tightly wound slab of thrash that would have sat proudly amongst the high quality canon of thrash albums in the late 80s when it was the defining sound of metal. Repentless by title, repentless by nature, this is not just a Slayer album, it's a Slay-AAARRRGGGHH album.</p>\n\n<p><img src=\"https://images-eu.ssl-images-amazon.com/images/I/51SwBFlSeHL._SL500_AA300_.jpg\" alt=\"V Cover\" /></p>\n\n<p><strong>2 : Scale The Summit - V</strong>\nBack in October a video appeared on Youtube of many <a href=\"https://www.youtube.com/watch?v=PznnIHVZ3gQ\">metal standards played without distortion</a>. Which begs the question what can you do with a metal guitar outside that standard overdrive, fuzzy sound? Where can you take the music. Scale The Summit's fifth album of instrumentals neatly answers that. And almost capsizes it as well. Sans-vox none of their ten pieces here particularly obey a standard structure but do explore their own sound and style of playing, but what should we expect from a band of music majors - twelve bar blues? Ultimately V is a really rewarding album if you give it enough time to figure it out. Come for the guitar craft, stay for the puzzle, live for the explanation.</p>\n\n<p><img src=\"https://images-eu.ssl-images-amazon.com/images/I/61gTf6c-W7L._SL500_AA300_.jpg\" alt=\"New Bermuda Cover\" /></p>\n\n<p><strong>1 : Deafheaven - New Bermuda</strong> And so to number one. It wasn't even close. When Deafheaven released their previous album Sunbather a few years ago, they got almost as much press for the fact they tried to do something different with that post black metal platter as for the fact it was actually really very good. Cue the release of New Bermuda and not only have they continued to experiment with the set formula of the genre, but they've also almost created a hybrid which is almost entirely accessible to anyone who cares to listen to something other than trite chart nonsense. Its roots are still evident but now there are delicious solos and intermissions building on what they had with Sunbather. </p>\n\n<p>Listen if you have ears, for they will not offend you. </p>",
+                        "image": "https://i.ytimg.com/vi/Vb-x5HZHsKQ/maxresdefault.jpg",
+                        "featured": 1,
+                        "page": 0,
+                        "status": "published",
+                        "language": "en_US",
+                        "meta_title": null,
+                        "meta_description": null,
+                        "author_id": 1,
+                        "created_at": "2015-12-05T23:11:45.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-12-09T23:00:58.000Z",
+                        "updated_by": 1,
+                        "published_at": "2015-12-09T21:57:00.000Z",
+                        "published_by": 1,
+                        "visibility": "public",
+                        "mobiledoc": null
+                    },
+                    {
+                        "id": 11,
+                        "uuid": "d1d50690-9ada-48a3-92f9-efbc3278238d",
+                        "title": "New Year, New Tech, and old Lemmy",
+                        "slug": "new-year-new-tech-and-old-lemmy",
+                        "markdown": "Hello from up on Steepness Hill where there has now been enough rain even here in the south that our very own Brigadoon of an Oxfordshire riviera has appeared again and is concerning enough people that the BBC now has some [aerial pictures of it online](http://www.bbc.co.uk/news/uk-england-oxfordshire-35213628).\n\nTwo weeks of term break have flown by and tomorrow the machines of work must switch themselves back on again, flickering back into life after having first grunted porcine-like at the depressions of on-buttons with undertones of \"just five more minutes\" clear to hear. My prevarication muscles are already working up a sweat this evening and so here is the first post of 2016 written in an attempt to hide under the digital bedclothes so as not to see how many things haven't been written by my authors who said they would but probably didn't over the holidays.\n\nAnyway, hello. Have a nice new year?\n\n## New Tech\nMy Surface 3 Pro is history. Amazing machine but the flimsiness of the type cover finally made me nuts. In it's place now is a [3XS LG15 Performance from Scan.](http://www.scan.co.uk/3xs/configurator/15in-gaming-laptop-nvidia-geforce-gt-940m) It's probably not the only company out there to do custom-spec laptops but one I trust and aside from not letting me choose the colour it's exactly what I need right now and no more and so a price I can afford. There's also a massive scope for expansion \\ refitting - that's a great modular design for you. \n\nIt's also the third time I've repaved a machine with Win10 1511 as well now since November so I'm getting pretty fluent in what options to change to get it just so. My files backup onto a single 64GB USB3 key so its pretty fluid and now that the [chocolatey](http://www.chocolatey.org) maintainers are [getting through their backlog of packages to approve,](http://codebetter.com/robreynolds/2015/12/18/chocolatey-community-state-of-union/) I've gone the whole hog and used it to streamline all the app installation too. The only bits not installed through choco now are Office365, DrawboardPDF, Spotify and dbPoweramp because they aren't packages and teracopy because the package fails to install. If you've not discovered chocolatey before do look it up. It's a massive time saver. Thanks to Rob and the team!\n\n## Hard Sci-fi at the movies\nHaving been blown away by the movie version of The Martian last year, I picked up a copy of Andy Weir's novel and devoured it in a couple of nights. The film and novel track pretty much in parallel - they pretty much have to given the film would get a pasting if it didn't have the scientific accuracy of the book - but the coda at the end is a nice touch. I'm still convinced Sean Bean was cast purely for that one gag though (which is fine in this case). Here's hoping there is more hard sci-fi that can cross over into the movies. There's nothing wrong with a loud space opera like Jupiter Ascending but oh for something more meaty like a good Asimov adaptation, a solid sighting of a Rendezvous with Rama film or an Easter adaptation of Dragon's Egg. For now at least, there's The Expanse which at least has nice morsels to chew on. \n\nApropos of nothing I'm expecting the standard late night sci-fi flick to switch from [Dredd](http://www.imdb.com/title/tt1343727) to [Jupiter Ascending](http://www.imdb.com/title/tt1617661) reasonably soon. I think I memorized most of [Chronicles of Riddick](http://www.imdb.com/title/tt0296572) while it was in heavy rotation two years ago and Dredd has even less dialogue, but I'm rather looking forward to digesting Eddie Redmayne's scenery chewing extravaganza on a regular basis. Ever since the crime against vision that was Speed Racer, the Matrix siblings have done some pretty solid stuff - overblown perhaps but that's just par for the course. Hard sci-fi is not their raison d'etre.\n\n## Music\nThe big sad news over Christmas for em at least was [the loss of Ian Kilmister](http://www.metalinjection.net/latest-news/motorhead-lemmy-kilmister-dead-age-70) or Lemmy as the world knew him. Apparently it was cancer that finally got him but given that he was 70, and that he had abused his system for fifty years, thirty five years of which [he actually had his own blood type,](http://www.metalinjection.net/lists/5-reasons-lemmy-is-god) I wouldn't be surprised if the cancer had been cowering in a corner for years with a white flag apologising for the terrible mistake. Lemmy was the only member of Motorhead for 35 years. 22 albums etc etc. If you've no idea who he is, shame on you and [watch this](https://www.youtube.com/watch?v=R2en-GCvtDg) I've no idea how many times I saw them live but I know that it was them that gave me tinnitus the first time I saw them. So he'll always be with me - in a fashion.\n\nHere's a playlist for Lemmy for you to respect - him, his influences, and some of the bands he has influenced too.\n\n* [Head Cat](https://www.facebook.com/HeadCatOfficial) - [Rock This Town](https://www.youtube.com/watch?v=qphZXAmc2Sk) \\ Lemmy's Elvis cover band\n* The Beatles - Penny Lane\n* Motorhead - [Ace of Spades (slow version)](https://www.youtube.com/watch?v=tc-PVTj9UCk)\n* Metallica - [Overkill](https://www.youtube.com/watch?v=zbqSIIaO-oU) \\ at Lemmy's 50th birthday gig as 'the Lemmys'\n* Sepultura - Orgasmatron\n* Jimi Hendrix - Wild Thing \\ Lemmy was famously one of Hendrix's roadies\n* Hawkwind - [Silver Machine](https://www.youtube.com/watch?v=7-PFWBzrbs8)\n* Motorhead - [Killed By Death](https://www.youtube.com/watch?v=OIJB6Yrj17Q)\n* Motorhead - [Bomber (live)](https://www.youtube.com/watch?v=y4RcnMwiU4M) \\ No Sleep til Hammersmith remains one of the best live albums ever recorded\n* Probot - [Shake Your Blood (NSFW)](https://www.youtube.com/watch?v=T09hBGGpSjk) \n* Motorhead - [Hellraiser](https://www.youtube.com/watch?v=1M4FG1UXH5w)  \\ Lemmy vs Pinhead? No Contest :-) \n\n",
+                        "html": "<p>Hello from up on Steepness Hill where there has now been enough rain even here in the south that our very own Brigadoon of an Oxfordshire riviera has appeared again and is concerning enough people that the BBC now has some <a href=\"http://www.bbc.co.uk/news/uk-england-oxfordshire-35213628\">aerial pictures of it online</a>.</p>\n\n<p>Two weeks of term break have flown by and tomorrow the machines of work must switch themselves back on again, flickering back into life after having first grunted porcine-like at the depressions of on-buttons with undertones of \"just five more minutes\" clear to hear. My prevarication muscles are already working up a sweat this evening and so here is the first post of 2016 written in an attempt to hide under the digital bedclothes so as not to see how many things haven't been written by my authors who said they would but probably didn't over the holidays.</p>\n\n<p>Anyway, hello. Have a nice new year?</p>\n\n<h2 id=\"newtech\">New Tech</h2>\n\n<p>My Surface 3 Pro is history. Amazing machine but the flimsiness of the type cover finally made me nuts. In it's place now is a <a href=\"http://www.scan.co.uk/3xs/configurator/15in-gaming-laptop-nvidia-geforce-gt-940m\">3XS LG15 Performance from Scan.</a> It's probably not the only company out there to do custom-spec laptops but one I trust and aside from not letting me choose the colour it's exactly what I need right now and no more and so a price I can afford. There's also a massive scope for expansion \\ refitting - that's a great modular design for you. </p>\n\n<p>It's also the third time I've repaved a machine with Win10 1511 as well now since November so I'm getting pretty fluent in what options to change to get it just so. My files backup onto a single 64GB USB3 key so its pretty fluid and now that the <a href=\"http://www.chocolatey.org\">chocolatey</a> maintainers are <a href=\"http://codebetter.com/robreynolds/2015/12/18/chocolatey-community-state-of-union/\">getting through their backlog of packages to approve,</a> I've gone the whole hog and used it to streamline all the app installation too. The only bits not installed through choco now are Office365, DrawboardPDF, Spotify and dbPoweramp because they aren't packages and teracopy because the package fails to install. If you've not discovered chocolatey before do look it up. It's a massive time saver. Thanks to Rob and the team!</p>\n\n<h2 id=\"hardscifiatthemovies\">Hard Sci-fi at the movies</h2>\n\n<p>Having been blown away by the movie version of The Martian last year, I picked up a copy of Andy Weir's novel and devoured it in a couple of nights. The film and novel track pretty much in parallel - they pretty much have to given the film would get a pasting if it didn't have the scientific accuracy of the book - but the coda at the end is a nice touch. I'm still convinced Sean Bean was cast purely for that one gag though (which is fine in this case). Here's hoping there is more hard sci-fi that can cross over into the movies. There's nothing wrong with a loud space opera like Jupiter Ascending but oh for something more meaty like a good Asimov adaptation, a solid sighting of a Rendezvous with Rama film or an Easter adaptation of Dragon's Egg. For now at least, there's The Expanse which at least has nice morsels to chew on. </p>\n\n<p>Apropos of nothing I'm expecting the standard late night sci-fi flick to switch from <a href=\"http://www.imdb.com/title/tt1343727\">Dredd</a> to <a href=\"http://www.imdb.com/title/tt1617661\">Jupiter Ascending</a> reasonably soon. I think I memorized most of <a href=\"http://www.imdb.com/title/tt0296572\">Chronicles of Riddick</a> while it was in heavy rotation two years ago and Dredd has even less dialogue, but I'm rather looking forward to digesting Eddie Redmayne's scenery chewing extravaganza on a regular basis. Ever since the crime against vision that was Speed Racer, the Matrix siblings have done some pretty solid stuff - overblown perhaps but that's just par for the course. Hard sci-fi is not their raison d'etre.</p>\n\n<h2 id=\"music\">Music</h2>\n\n<p>The big sad news over Christmas for em at least was <a href=\"http://www.metalinjection.net/latest-news/motorhead-lemmy-kilmister-dead-age-70\">the loss of Ian Kilmister</a> or Lemmy as the world knew him. Apparently it was cancer that finally got him but given that he was 70, and that he had abused his system for fifty years, thirty five years of which <a href=\"http://www.metalinjection.net/lists/5-reasons-lemmy-is-god\">he actually had his own blood type,</a> I wouldn't be surprised if the cancer had been cowering in a corner for years with a white flag apologising for the terrible mistake. Lemmy was the only member of Motorhead for 35 years. 22 albums etc etc. If you've no idea who he is, shame on you and <a href=\"https://www.youtube.com/watch?v=R2en-GCvtDg\">watch this</a> I've no idea how many times I saw them live but I know that it was them that gave me tinnitus the first time I saw them. So he'll always be with me - in a fashion.</p>\n\n<p>Here's a playlist for Lemmy for you to respect - him, his influences, and some of the bands he has influenced too.</p>\n\n<ul>\n<li><a href=\"https://www.facebook.com/HeadCatOfficial\">Head Cat</a> - <a href=\"https://www.youtube.com/watch?v=qphZXAmc2Sk\">Rock This Town</a> \\ Lemmy's Elvis cover band</li>\n<li>The Beatles - Penny Lane</li>\n<li>Motorhead - <a href=\"https://www.youtube.com/watch?v=tc-PVTj9UCk\">Ace of Spades (slow version)</a></li>\n<li>Metallica - <a href=\"https://www.youtube.com/watch?v=zbqSIIaO-oU\">Overkill</a> \\ at Lemmy's 50th birthday gig as 'the Lemmys'</li>\n<li>Sepultura - Orgasmatron</li>\n<li>Jimi Hendrix - Wild Thing \\ Lemmy was famously one of Hendrix's roadies</li>\n<li>Hawkwind - <a href=\"https://www.youtube.com/watch?v=7-PFWBzrbs8\">Silver Machine</a></li>\n<li>Motorhead - <a href=\"https://www.youtube.com/watch?v=OIJB6Yrj17Q\">Killed By Death</a></li>\n<li>Motorhead - <a href=\"https://www.youtube.com/watch?v=y4RcnMwiU4M\">Bomber (live)</a> \\ No Sleep til Hammersmith remains one of the best live albums ever recorded</li>\n<li>Probot - <a href=\"https://www.youtube.com/watch?v=T09hBGGpSjk\">Shake Your Blood (NSFW)</a> </li>\n<li>Motorhead - <a href=\"https://www.youtube.com/watch?v=1M4FG1UXH5w\">Hellraiser</a>  \\ Lemmy vs Pinhead? No Contest :-) </li>\n</ul>",
+                        "image": "/content/images/2016/01/storm-frank.jpg",
+                        "featured": 0,
+                        "page": 0,
+                        "status": "published",
+                        "language": "en_US",
+                        "meta_title": null,
+                        "meta_description": null,
+                        "author_id": 1,
+                        "created_at": "2016-01-03T22:52:07.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-01-03T23:15:17.000Z",
+                        "updated_by": 1,
+                        "published_at": "2016-01-03T23:13:05.000Z",
+                        "published_by": 1,
+                        "visibility": "public",
+                        "mobiledoc": null
+                    },
+                    {
+                        "id": 12,
+                        "uuid": "50896028-547f-44e3-83ab-9c8229c00ae0",
+                        "title": "Snow, Coffee & Tarantino",
+                        "slug": "snow-coffee-tarantino",
+                        "markdown": "Hello from up on Steepness Hill where we have been tickled by a 100 mile weather band and seen snow for the first time in almost three years. Of course it's not quite as chilly as my friend Katherine is finding [her residency in Shetland](https://extremelightnorth.wordpress.com/) at the moment, but still. My fingers are shaking almost as much from the cold as from the Christmas taster boxes of coffee that my family gave me. I never really thought about the flavour of coffee but it turns out that strong (read: good) coffee comes from Central and South America while milder (read: not good) variants from Africa and must therefore be avoided. Of course, it's widely known that [The Black Blood of the Earth](http://www.funraniumlabs.com/the-black-blood-of-the-earth/bbote-vs-coffee/) is from America but it's also known that that stuff is simply insane.\nMany projects are afoot, including two new book edits - one from within the reactive programming bandwagon of fate and one not - to bring the total up to ten, a new radio show, and a couple of other things that need some details firmed up before I really talk about them. Really excited about the radio show. The nice folks at [Radio Horton](http://www.radiohorton.co.uk/) have agreed to give me the Friday morning slot. So that's double the length done live than the previous show I did pre-recorded. Already I'm back to listening to at least one new album a day. Perhaps you'll like some of these.\n\n* Bjork - [Vulnicura strings](https://play.spotify.com/album/4swijDhQ32SOjGXmL3mdjQ)\n* [Josephine Foster](https://play.spotify.com/artist/1fVyf1LbeIEE4DUT4dZhHL) - No More Lamps In the Morning\n* Collapse Under The Empire - [Sacrifice & Isolation](http://collapseundertheempire.bandcamp.com/album/sacrifice-isolation) \n* Adele - 25\n* Airfree - [Shelter](http://gradientaudio.bandcamp.com/album/shelter-2)\n* Emperor - Live Inferno\n* Sean Ashe - [Flux](http://seanashe.bandcamp.com/album/flux)\n\nBefore everything kicks off though, there's a new Tarantino movie to watch. Like him or loathe him, Quentin is allowed to make films that no-one else is allowed to. He (and Aaron Sorkin) writes in such an idiomatic style that you hear a few minutes of dialogue and it's instantly recognizable as his. As is the film. For a three hour film, it's goes surprisingly fast for what is mostly set in a single room. There's a touch of Agatha Christie's And Then There Were None with additional bloody violence and post-racism. And yes, it's entertaining too. But would I let him write a book carte blanche? No. Not if it was up to me and it had to teach something. His extended dialog parallels the logorrhea in James Joyce and David Foster Wallace. And no I wouldn't want them to teach me how to program either. James Joyce would have been an awful tech writer. Prevaricate. Prevaricate. He can and does write two pages describing someone sitting on the loo reading a newspaper daydreaming away until the smell of his dump pulls him back to reality much in the same way that no-one should *ever* teach closures. Still, It's important to respect other people's writing style when editing even if you don't like it. It could just be you. You can still give much feedback about the content and the teaching. It's not your voice. Of course, if any ever sends me a chapter with absolutely no punctuation whatsoever in it, they are going to get it sent back by return of post. ",
+                        "html": "<p>Hello from up on Steepness Hill where we have been tickled by a 100 mile weather band and seen snow for the first time in almost three years. Of course it's not quite as chilly as my friend Katherine is finding <a href=\"https://extremelightnorth.wordpress.com/\">her residency in Shetland</a> at the moment, but still. My fingers are shaking almost as much from the cold as from the Christmas taster boxes of coffee that my family gave me. I never really thought about the flavour of coffee but it turns out that strong (read: good) coffee comes from Central and South America while milder (read: not good) variants from Africa and must therefore be avoided. Of course, it's widely known that <a href=\"http://www.funraniumlabs.com/the-black-blood-of-the-earth/bbote-vs-coffee/\">The Black Blood of the Earth</a> is from America but it's also known that that stuff is simply insane. <br />\nMany projects are afoot, including two new book edits - one from within the reactive programming bandwagon of fate and one not - to bring the total up to ten, a new radio show, and a couple of other things that need some details firmed up before I really talk about them. Really excited about the radio show. The nice folks at <a href=\"http://www.radiohorton.co.uk/\">Radio Horton</a> have agreed to give me the Friday morning slot. So that's double the length done live than the previous show I did pre-recorded. Already I'm back to listening to at least one new album a day. Perhaps you'll like some of these.</p>\n\n<ul>\n<li>Bjork - <a href=\"https://play.spotify.com/album/4swijDhQ32SOjGXmL3mdjQ\">Vulnicura strings</a></li>\n<li><a href=\"https://play.spotify.com/artist/1fVyf1LbeIEE4DUT4dZhHL\">Josephine Foster</a> - No More Lamps In the Morning</li>\n<li>Collapse Under The Empire - <a href=\"http://collapseundertheempire.bandcamp.com/album/sacrifice-isolation\">Sacrifice &amp; Isolation</a> </li>\n<li>Adele - 25</li>\n<li>Airfree - <a href=\"http://gradientaudio.bandcamp.com/album/shelter-2\">Shelter</a></li>\n<li>Emperor - Live Inferno</li>\n<li>Sean Ashe - <a href=\"http://seanashe.bandcamp.com/album/flux\">Flux</a></li>\n</ul>\n\n<p>Before everything kicks off though, there's a new Tarantino movie to watch. Like him or loathe him, Quentin is allowed to make films that no-one else is allowed to. He (and Aaron Sorkin) writes in such an idiomatic style that you hear a few minutes of dialogue and it's instantly recognizable as his. As is the film. For a three hour film, it's goes surprisingly fast for what is mostly set in a single room. There's a touch of Agatha Christie's And Then There Were None with additional bloody violence and post-racism. And yes, it's entertaining too. But would I let him write a book carte blanche? No. Not if it was up to me and it had to teach something. His extended dialog parallels the logorrhea in James Joyce and David Foster Wallace. And no I wouldn't want them to teach me how to program either. James Joyce would have been an awful tech writer. Prevaricate. Prevaricate. He can and does write two pages describing someone sitting on the loo reading a newspaper daydreaming away until the smell of his dump pulls him back to reality much in the same way that no-one should <em>ever</em> teach closures. Still, It's important to respect other people's writing style when editing even if you don't like it. It could just be you. You can still give much feedback about the content and the teaching. It's not your voice. Of course, if any ever sends me a chapter with absolutely no punctuation whatsoever in it, they are going to get it sent back by return of post. </p>",
+                        "image": "/content/images/2016/01/The-Hateful-Eight.png",
+                        "featured": 0,
+                        "page": 0,
+                        "status": "published",
+                        "language": "en_US",
+                        "meta_title": "Snow Coffee and Tarantino",
+                        "meta_description": "On the locating the stronger coffee in the world and why Tarantino and James Joyce would not be good tech writers",
+                        "author_id": 1,
+                        "created_at": "2016-01-10T15:52:18.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-01-18T09:37:15.000Z",
+                        "updated_by": 1,
+                        "published_at": "2016-01-17T22:20:00.000Z",
+                        "published_by": 1,
+                        "visibility": "public",
+                        "mobiledoc": null
+                    }
+                ],
+                "posts_tags": [
+                    {
+                        "id": 2,
+                        "post_id": 7,
+                        "tag_id": 2,
+                        "sort_order": 0
+                    },
+                    {
+                        "id": 3,
+                        "post_id": 8,
+                        "tag_id": 2,
+                        "sort_order": 0
+                    },
+                    {
+                        "id": 4,
+                        "post_id": 8,
+                        "tag_id": 3,
+                        "sort_order": 1
+                    },
+                    {
+                        "id": 5,
+                        "post_id": 9,
+                        "tag_id": 4,
+                        "sort_order": 0
+                    },
+                    {
+                        "id": 6,
+                        "post_id": 10,
+                        "tag_id": 2,
+                        "sort_order": 0
+                    },
+                    {
+                        "id": 7,
+                        "post_id": 11,
+                        "tag_id": 2,
+                        "sort_order": 0
+                    },
+                    {
+                        "id": 8,
+                        "post_id": 11,
+                        "tag_id": 5,
+                        "sort_order": 1
+                    },
+                    {
+                        "id": 9,
+                        "post_id": 11,
+                        "tag_id": 4,
+                        "sort_order": 2
+                    },
+                    {
+                        "id": 10,
+                        "post_id": 12,
+                        "tag_id": 5,
+                        "sort_order": 0
+                    },
+                    {
+                        "id": 11,
+                        "post_id": 12,
+                        "tag_id": 2,
+                        "sort_order": 1
+                    },
+                    {
+                        "id": 12,
+                        "post_id": 12,
+                        "tag_id": 3,
+                        "sort_order": 2
+                    }
+                ],
+                "roles": [
+                    {
+                        "id": 1,
+                        "uuid": "d9042e4b-e07f-4400-aae1-016d511929a2",
+                        "name": "Administrator",
+                        "description": "Administrators",
+                        "created_at": "2015-09-09T22:07:34.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:34.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 2,
+                        "uuid": "75a93e4b-5fc3-4b01-b4cd-adc7956a2cc0",
+                        "name": "Editor",
+                        "description": "Editors",
+                        "created_at": "2015-09-09T22:07:34.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:34.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 3,
+                        "uuid": "ce724811-830e-463c-bee4-e781dd1f6304",
+                        "name": "Author",
+                        "description": "Authors",
+                        "created_at": "2015-09-09T22:07:34.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:34.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 4,
+                        "uuid": "89e25bfb-5f14-4450-8c42-c75d38c35c5a",
+                        "name": "Owner",
+                        "description": "Blog Owner",
+                        "created_at": "2015-09-09T22:07:34.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:34.000Z",
+                        "updated_by": 1
+                    }
+                ],
+                "roles_users": [
+                    {
+                        "id": 1,
+                        "role_id": 4,
+                        "user_id": 1
+                    }
+                ],
+                "settings": [
+                    {
+                        "id": 1,
+                        "uuid": "ae87f919-bcd1-4886-b14a-986474862531",
+                        "key": "databaseVersion",
+                        "value": "006",
+                        "type": "core",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-07-27T12:49:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 2,
+                        "uuid": "806aa96d-a637-4cb6-8fcb-15e5bfe044ef",
+                        "key": "nextUpdateCheck",
+                        "value": null,
+                        "type": "core",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-07-27T12:49:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 3,
+                        "uuid": "928f506f-a06a-4cae-8268-5c97ac01f5db",
+                        "key": "dbHash",
+                        "value": "236ed543-6b88-4b9e-aabd-9dbcb909f5b4",
+                        "type": "core",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-07-27T12:49:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 4,
+                        "uuid": "e3d0a404-946f-4227-9431-fecf99c23921",
+                        "key": "displayUpdateNotification",
+                        "value": null,
+                        "type": "core",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-07-27T12:49:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 5,
+                        "uuid": "c944e67b-1dd0-4497-982e-060b89c96196",
+                        "key": "title",
+                        "value": "Just Dan",
+                        "type": "blog",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 6,
+                        "uuid": "7953d764-50fe-43a2-9b46-b0963a9420ae",
+                        "key": "description",
+                        "value": "A freelance writer, editor and presenter of radio shows",
+                        "type": "blog",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 7,
+                        "uuid": "3bef3c07-eac6-4eaa-9318-0c76a66a5ff2",
+                        "key": "logo",
+                        "value": "/content/images/2015/09/danm_hawaii.png",
+                        "type": "blog",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 8,
+                        "uuid": "3110eea7-42f0-4fd7-8e98-9aed6b7bacbc",
+                        "key": "cover",
+                        "value": "/content/images/2015/09/Driver.JPG",
+                        "type": "blog",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 9,
+                        "uuid": "cda4491d-ce51-4b33-9ba6-cf365e756077",
+                        "key": "defaultLang",
+                        "value": "en_US",
+                        "type": "blog",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 10,
+                        "uuid": "4b7d2175-ddf1-40a5-8792-176b8065a489",
+                        "key": "postsPerPage",
+                        "value": "5",
+                        "type": "blog",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 11,
+                        "uuid": "0d5018c4-cb66-46a9-ab06-9424f92f3b2f",
+                        "key": "forceI18n",
+                        "value": "true",
+                        "type": "blog",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 12,
+                        "uuid": "0e2da6cf-1ca2-4740-b503-65392f7c33fe",
+                        "key": "permalinks",
+                        "value": "/:slug/",
+                        "type": "blog",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 13,
+                        "uuid": "658d6c49-6030-43c1-a2e7-98618ab4eae2",
+                        "key": "ghost_head",
+                        "value": "<script>\nvar ga_id = 'UA-67470507-1';\nvar profile_title = 'Dan Maharry';\nvar profile_resume ='A freelance writer, editor and presenter of radio shows';\nvar disqus_shortname = 'dansghostblog';\n</script>\n<style>\n    .post>p>img { width : auto; }\n</style>",
+                        "type": "blog",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 14,
+                        "uuid": "fcee1fad-1987-4974-9140-bfdcfa9aae92",
+                        "key": "ghost_foot",
+                        "value": "",
+                        "type": "blog",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 15,
+                        "uuid": "c8f8e3f2-3f59-476c-add7-4e83e7671860",
+                        "key": "labs",
+                        "value": "{}",
+                        "type": "blog",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 16,
+                        "uuid": "2047f366-f1ee-4dd6-929d-29422b53acdd",
+                        "key": "navigation",
+                        "value": "[{\"label\":\"About\",\"url\":\"http://dan.maharry.me.uk/about-dan/\"}]",
+                        "type": "blog",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 17,
+                        "uuid": "b54dc7c5-c37b-44e9-b63a-cdd0767a7e32",
+                        "key": "activeApps",
+                        "value": "[]",
+                        "type": "app",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-07-27T12:49:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 18,
+                        "uuid": "9edfbdf4-17e5-4051-9f5c-8d9117307aa2",
+                        "key": "installedApps",
+                        "value": "[]",
+                        "type": "app",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-08T14:01:16.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 19,
+                        "uuid": "bfa51feb-7846-4ed5-833c-abc061451625",
+                        "key": "isPrivate",
+                        "value": "false",
+                        "type": "private",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 20,
+                        "uuid": "eb26ec86-a0f1-4bc4-ae14-b2ca917f9596",
+                        "key": "password",
+                        "value": "null",
+                        "type": "private",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 21,
+                        "uuid": "588967ab-0284-426a-a6f6-64a933161d53",
+                        "key": "activeTheme",
+                        "value": "casper",
+                        "type": "theme",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 22,
+                        "uuid": "64493b19-447e-4efe-9bc9-994efa277c9b",
+                        "key": "twitter",
+                        "value": "@danmaharry",
+                        "type": "blog",
+                        "created_at": "2016-05-18T15:44:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 23,
+                        "uuid": "b1316516-351e-4c48-811d-9bff0d2d9c07",
+                        "key": "slack",
+                        "value": "[{\"url\":\"\"}]",
+                        "type": "blog",
+                        "created_at": "2016-05-18T15:44:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 24,
+                        "uuid": "4f5cbaa0-035c-4eb0-852b-1f593c0f9742",
+                        "key": "facebook",
+                        "value": "",
+                        "type": "blog",
+                        "created_at": "2016-05-18T15:44:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 25,
+                        "uuid": "9987096d-4dbd-4c50-bec0-399f29d1bcff",
+                        "key": "seenNotifications",
+                        "value": "[]",
+                        "type": "core",
+                        "created_at": "2016-07-27T11:49:21.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-07-27T12:49:22.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 26,
+                        "uuid": "27201d5f-383e-4b43-b6ff-43a829ddde38",
+                        "key": "migrations",
+                        "value": "{\"006/01\":\"2016-07-27T12:49:23Z\"}",
+                        "type": "core",
+                        "created_at": "2016-07-27T12:49:21.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-07-27T12:49:23.000Z",
+                        "updated_by": 1
+                    },
+                    {
+                        "id": 27,
+                        "uuid": "d5fb3b57-008a-4ca4-b68a-95ff0358c3e7",
+                        "key": "activeTimezone",
+                        "value": "Europe/Dublin",
+                        "type": "blog",
+                        "created_at": "2016-07-27T11:49:21.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-02T16:42:22.000Z",
+                        "updated_by": 1
+                    }
+                ],
+                "subscribers": [],
+                "tags": [
+                    {
+                        "id": 1,
+                        "uuid": "e0f7579c-eea6-4d82-bd1b-13582f1a6fb2",
+                        "name": "Getting Started",
+                        "slug": "getting-started",
+                        "description": null,
+                        "image": null,
+                        "parent_id": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "created_at": "2015-09-09T22:07:34.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-09-09T22:07:34.000Z",
+                        "updated_by": 1,
+                        "visibility": "public"
+                    },
+                    {
+                        "id": 2,
+                        "uuid": "e4ba1945-d49c-4ddf-a1bc-11032608caa1",
+                        "name": "music",
+                        "slug": "music",
+                        "description": null,
+                        "image": null,
+                        "parent_id": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "created_at": "2015-11-07T22:55:14.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-11-07T22:55:14.000Z",
+                        "updated_by": 1,
+                        "visibility": "public"
+                    },
+                    {
+                        "id": 3,
+                        "uuid": "ce957b54-b6b3-4deb-a72a-ace1453b96f3",
+                        "name": "sideprojects",
+                        "slug": "sideprojects",
+                        "description": null,
+                        "image": null,
+                        "parent_id": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "created_at": "2015-11-18T12:34:31.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-11-18T12:34:31.000Z",
+                        "updated_by": 1,
+                        "visibility": "public"
+                    },
+                    {
+                        "id": 4,
+                        "uuid": "d01f79c6-6142-40a7-b0a3-06b5c7be4de4",
+                        "name": "techy stuff",
+                        "slug": "techy-stuff",
+                        "description": null,
+                        "image": null,
+                        "parent_id": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "created_at": "2015-11-18T13:29:23.000Z",
+                        "created_by": 1,
+                        "updated_at": "2015-11-18T13:29:23.000Z",
+                        "updated_by": 1,
+                        "visibility": "public"
+                    },
+                    {
+                        "id": 5,
+                        "uuid": "d3859bff-70b7-47e1-9324-8288857deeaf",
+                        "name": "films",
+                        "slug": "films",
+                        "description": null,
+                        "image": null,
+                        "parent_id": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "created_at": "2016-01-03T23:13:05.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-01-03T23:13:05.000Z",
+                        "updated_by": 1,
+                        "visibility": "public"
+                    }
+                ],
+                "users": [
+                    {
+                        "id": 1,
+                        "uuid": "7d207382-d54a-46dd-b053-04259bc59166",
+                        "name": "Dan Maharry",
+                        "slug": "dan",
+                        "password": "$2a$10$OW5Txw88Qsbey3mzvhIZhuB6kYZ7BWd7ezOpsoIjkBiX0sMCNDs3.",
+                        "email": "danm@hmobius.com",
+                        "image": "//www.gravatar.com/avatar/dec2c5e29827a0814702d02610bd95fe?s=250&d=mm&r=x",
+                        "cover": "/content/images/2015/09/nin_g_09.jpg",
+                        "bio": "An editor and writer of tech books for many companies and currently Manning Publications. Also a radio presenter and web coder on hiatus.",
+                        "website": "http://hmobius.com",
+                        "location": "UK",
+                        "accessibility": null,
+                        "status": "active",
+                        "language": "en_US",
+                        "meta_title": null,
+                        "meta_description": null,
+                        "tour": null,
+                        "last_login": "2016-08-08T14:51:45.000Z",
+                        "created_at": "2015-09-09T22:07:35.000Z",
+                        "created_by": 1,
+                        "updated_at": "2016-08-08T14:51:45.000Z",
+                        "updated_by": 1,
+                        "visibility": "public",
+                        "facebook": null,
+                        "twitter": null
+                    }
+                ]
+            }
+        }
+    ]
+}
