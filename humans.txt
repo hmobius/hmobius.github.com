@@ -7,10 +7,13 @@
 
 # THANKS
 
-    HTML5 Boilerplate Team
-    Code 52 Project for metro.css
+    HTML5Up for Single page template
+    Icons: Font Awesome (fontawesome.io)
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr, Less
+    HTML5
+    CSS3
+    jQuery
+		jQuery (jquery.com)
+		Responsive Tools (github.com/ajlkn/responsive-tools)
